@@ -1,0 +1,40 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Follow-up letter - Gradyent, Senior Software Engineer Python (Rotterdam / The Hague)
+%% Written 2026-09-08. References the application submitted 2026-08-18.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+\namesection{}{\Huge{Artem Sokoliuk}}{  \href{mailto:artemsokoliuk@gmail.com}{artemsokoliuk@gmail.com} | +48 517 288 201 |  \urlstyle{same}\href{https://www.linkedin.com/in/artemsokoliuk/}{LinkedIn}
+}
+\currentdate{\today}
+\lettercontent{Dear Gradyent Hiring Team,}
+
+\lettercontent{I applied to Gradyent in August, for the Python Engineer and Digital Twin Engineer roles. I have since seen the Senior Software Engineer, Python opening, and I am writing because it fits me more precisely than either of those did. If my earlier application is still on file, I would like it considered against this role instead.}
+
+\lettercontent{What made me write again is the emphasis. This posting is not only about shipping features, it is about refactoring for maintainability and performance, raising engineering standards, and strengthening automated testing. That is the work I have spent the last two years doing, alongside feature delivery:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{Raising standards across a team, concretely:} I built our shared standards repository (Poetry, Ruff, CI, Alembic migrations), which four-plus repositories adopted, and took test coverage on a core service from below half to \textbf{73\%}. As acting tech lead for about six months I reviewed \textbf{348 merge requests} and authored 200+.
+    \item \textbf{Refactoring for performance, not for its own sake:} I re-architected a critical send path and made it \textbf{5 to 6 times faster}, taking million-scale jobs from five or six hours down to about one, and lifting throughput \textbf{8 to 10 times}. The same pass eliminated a class of bug where work was reported successful when it had actually failed.
+    \item \textbf{Data-intensive Python at scale:} 10+ years in Python, an Airflow pipeline I automated that took our addressable audience \textbf{10x to 20 million users} at six runs a day, and PostgreSQL as my primary datastore with SQL I write by hand.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{On your stack: Python and AWS are daily tools for me, and SQL and database design are core to how I work. UbiOps, DuckDB and Polars would be new, though Polars sits close to ground I know well. The energy sector would also be new to me, and it is a large part of the appeal: a real-time digital twin of a grid is a genuinely hard systems problem, and one where being wrong has physical consequences rather than cosmetic ones. I use Claude Code daily as an engineering tool.}
+
+\lettercontent{I would relocate to the Netherlands with my family and would need Dutch Highly Skilled Migrant sponsorship. I noticed you have also opened a Berlin position, so if the team is better served there I would be equally glad to discuss it.}
+
+\lettercontent{I would welcome the chance to talk.}
+
+\begin{flushright}
+\closing{Kind regards,}
+\signature{Artem Sokoliuk}
+\end{flushright}
+\end{document}

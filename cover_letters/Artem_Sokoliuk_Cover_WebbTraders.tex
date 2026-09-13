@@ -1,0 +1,35 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Cover Letter - Webb Traders, Senior Software Engineer - Trading Development (Amsterdam)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+\namesection{}{\Huge{Artem Sokoliuk}}{  \href{mailto:artemsokoliuk@gmail.com}{artemsokoliuk@gmail.com} | +48 517 288 201 |  \urlstyle{same}\href{https://www.linkedin.com/in/artemsokoliuk/}{LinkedIn}
+}
+\currentdate{\today}
+\lettercontent{Dear Webb Traders Hiring Team,}
+
+\lettercontent{I am applying for the Senior Software Engineer role in Trading Development. I have 10+ years in Python building low-latency, high-throughput services where correctness is absolute, currently at Capital.com, an FCA-regulated fintech.}
+
+\lettercontent{I own client-messaging systems handling millions of messages a day, with message queues, idempotency and deep observability, in an environment where a wrong or duplicated action is a real incident. Concretely, I bring:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{Your stack, daily:} Python with Django, FastAPI and Celery on PostgreSQL and Redis, containerised on Docker and Kubernetes across AWS and GCP.
+    \item \textbf{Correctness at scale:} idempotency, retries with backoff, consistency guarantees and observability, built with a Clean Architecture approach and PyTest discipline.
+    \item \textbf{Senior ownership:} I lead design from spec to production, run code reviews and mentor two engineers, and I use Claude Code daily as an engineering tool.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{Honest note: my fintech experience is trading-adjacent rather than trading itself, so I would ramp on market mechanics while contributing on backend engineering from day one. I would relocate to Amsterdam with my family and would need Dutch Highly Skilled Migrant sponsorship.}
+
+\begin{flushright}
+\closing{Kind regards,}
+\signature{Artem Sokoliuk}
+\end{flushright}
+\end{document}

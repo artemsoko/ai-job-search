@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Log a job application from anywhere, with or without a Claude session open.
+#   ./applied https://boards.greenhouse.io/foo/jobs/123
+#   ./applied <url> --role "Senior Python Engineer" --notes "referral via X"
+#   ./applied --list
+#   ./applied --check bitvavo
+#   ./applied --sync
+exec python3 "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/scripts/log_application.py" "$@"

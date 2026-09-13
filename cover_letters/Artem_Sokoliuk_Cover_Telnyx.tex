@@ -1,0 +1,39 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Cover Letter - Telnyx, Senior Software Engineer (Python), Pricing Costs & Routing, Amsterdam
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+\namesection{}{\Huge{Artem Sokoliuk}}{  \href{mailto:artemsokoliuk@gmail.com}{artemsokoliuk@gmail.com} | +48 517 288 201 |  \urlstyle{same}\href{https://www.linkedin.com/in/artemsokoliuk/}{LinkedIn}
+}
+\currentdate{\today}
+\lettercontent{Dear Telnyx Hiring Team,}
+
+\lettercontent{I am applying for the Senior Software Engineer (Python) role in the Pricing, Costs and Routing squad. The two things this role is built on, production Airflow and async Python where a number has to be right, are the two things I do every day.}
+
+\lettercontent{At Capital.com I own the backend services behind CRM client communication, running at millions of messages a day. Against your requirements:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{Airflow DAGs I own, not just run:} I automated our user-profiling pipeline on Airflow, taking the addressable audience \textbf{10x to 20 million users}, running six times a day with alerting on each stage.
+    \item \textbf{Async Python at load:} asyncio and aiohttp today, FastAPI and Pydantic as my default, and about two and a half years on Atlassian's Hipchat and Stride messaging backends where non-blocking I/O was the whole game.
+    \item \textbf{Financial accuracy under retries:} I designed the governance engine that decides in real time whether a message may be sent, using optimistic-locking quota accounting and idempotent decisions, so a replay cannot double-spend a cap. Swap “cap” for “charge” and it is the same discipline.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{Automated discrepancy resolution is the part I would most want. I once found a class of bug where deliveries were reported as succeeded when they had actually failed, because success was inferred rather than confirmed. I rebuilt that path with idempotency pushed down to the database, and I now treat “how do we know this actually happened” as a design question rather than an observability afterthought. I use Claude Code daily as an engineering tool.}
+
+\lettercontent{To be straightforward: CDR and MDR data and rate-deck management would be new to me. The pipelines, the reconciliation and the async services would not.}
+
+\lettercontent{I would relocate to Amsterdam with my family and would need Dutch Highly Skilled Migrant sponsorship. I would welcome the chance to discuss the role.}
+
+\begin{flushright}
+\closing{Kind regards,}
+\signature{Artem Sokoliuk}
+\end{flushright}
+\end{document}

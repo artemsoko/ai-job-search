@@ -1,0 +1,36 @@
+[project]
+name = "game"
+version = "0.1.0"
+description = "IMC take-home"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-cov>=5", "mypy>=1.11", "ruff>=0.6"]
+
+[project.scripts]
+game = "game.adapters.cli:main"
+
+[tool.setuptools.package-data]
+game = ["py.typed"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+addopts = "-q --cov=game --cov-report=term-missing"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RET", "ARG", "PTH"]
+
+[tool.mypy]
+python_version = "3.11"
+mypy_path = "src"
+explicit_package_bases = true
+strict = true
+warn_unreachable = true

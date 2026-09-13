@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Artem Sokoliuk
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -24,18 +23,18 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Artem Sokoliuk - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Artem}{Sokoliuk}
+\address{Warsaw, Poland (open to relocation)}{}{}
+\phone[mobile]{+48 517 288 201}
+\email{artemsokoliuk@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/artemsokoliuk/}{LinkedIn}}
 
 \begin{document}
 
@@ -46,7 +45,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Senior/Staff-level Software Engineer with 10+ years building Python backends, from high-load asynchronous messaging systems to large-scale CRM communication platforms handling millions of messages per day. Deep with FastAPI, Pydantic, Django, Django REST Framework, Flask, aiohttp and asyncio, backed by a Clean Architecture approach (SOLID, KISS, DRY) and hands-on AWS, GCP, Docker and Kubernetes. Currently at Capital.com, where I own technical design end to end and lead a small team.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +55,17 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Python \& Backend}: Python (10+ yrs, primary), FastAPI, Pydantic, Django, Django REST Framework, Flask, aiohttp, asyncio, Twisted; REST API design, Clean Architecture.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Async \& High-Load}: large-scale messaging (millions/day), high-throughput real-time services, asynchronous programming, performance-oriented backend design.
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Technical Leadership}: system design, mentoring and leading engineers, onboarding, setting technical direction (Staff/Lead level).
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Data \& Storage}: PostgreSQL, MySQL, Redis (caching), Elasticsearch; GCP BigQuery / Datastore.
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Architecture}: SOLID, KISS, DRY, OOP; technical design and feature leading.
+
+\item \textbf{Cloud \& DevOps}: AWS (SQS, S3, IAM), Google Cloud Platform, Docker, Kubernetes, Terraform; CI with Jenkins and Bamboo; Linux/bash. Uses Claude Code for agentic automation.
 
 \end{itemize}
 
@@ -77,31 +78,30 @@
 \begin{itemize}
 
 % --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2023--Present}{Senior Software Engineer}{Capital.com}{Warsaw, Poland}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Build and own backend services for CRM client communication (service and marketing messaging: email, SMS, in-app inbox), handling millions of messages per day across dozens of services.
+    \item Operate at Staff/Lead level: design system architecture, deliver end to end, and set technical direction.
+    \item Lead and mentor two engineers; own onboarding and code quality.
+    \item Work primarily in Python within a polyglot codebase (some exposure to Golang and Java); agentic automation with Claude Code.
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2018--2023}{Senior Python Backend Engineer}{Ciklum}{Poland / Ukraine}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Powtoon (2020--2022): backend for a Python 3 / Django REST web application; owned technical design and feature leading.
+    \item Hopster (2018--2019): mobile-app backend on Google Cloud Platform (BigData, Datastore); built new tools and features.
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2015--2018}{Python Software Engineer}{SoftServe}{Ukraine}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Atlassian Hipchat/Stride: backend for a high-load Python 3 instant-messaging platform; asynchronous programming with aiohttp and Twisted.
+    \item Cisco Pangea: improved tooling for a microservices deployment platform; implemented and improved Terraform and deployment configuration.
 \end{itemize}}}
 
 \end{itemize}
@@ -114,15 +114,12 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
+% TODO: confirm graduation years
+\item{\cventry{}{Master of Arts (MA), Marketing}{Kyiv National University of Trade and Economics (KNUTE)}{Kyiv, Ukraine}{}{}}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
+\item{\cventry{}{Bachelor's degree}{Kyiv National University of Trade and Economics (KNUTE)}{Kyiv, Ukraine}{}{}}
 
 \end{itemize}
 
@@ -133,27 +130,17 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item Ukrainian (native), English (full professional), Russian (native).
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+%     CERTIFICATIONS (optional)
 % ============================================================
 
-\section{Publications}
+\section{Certifications}
 \vspace{1pt}
 \begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item Python Brainbench; Python (Codecademy); Learn Python Programming From Scratch; Project Management: The Basics for Success.
 \end{itemize}
 
 % ============================================================

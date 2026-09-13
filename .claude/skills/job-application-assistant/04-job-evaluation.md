@@ -20,9 +20,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Python (Django, DRF, FastAPI, Pydantic, Flask, aiohttp, asyncio), async/high-load backend, REST APIs, PostgreSQL/MySQL/Redis, Clean Architecture + SOLID, Docker/Kubernetes, AWS + GCP
+**Moderate match areas:** Terraform, Elasticsearch, JavaScript, CI (Jenkins/Bamboo), MarTech/data systems, fintech domain
+**Weak match areas:** non-Python core languages (Go, Java, C#, Rust) - Go/Java are only limited/indirect exposure, NOT working languages, so any role that needs them as a core/primary language is a poor fit; heavy frontend frameworks (React/Vue); formal CS degree signals (background is MA + self-taught engineering); ML/data-science modeling
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -34,9 +34,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Senior/Staff Python backend engineering, high-load/real-time systems (large-scale CRM messaging, millions/day), web & API backends, system design/architecture, mentoring & leading engineers (2 reports), product engineering teams
+**Moderate:** platform/DevOps-adjacent work (Terraform, k8s, deployment tooling), MarTech/CRM communication systems
+**Entry-level:** formal people-management at scale (large teams), pure data science/ML
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -51,10 +51,17 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+Artem is based in **Warsaw, Poland** and wants to relocate. Relocation is a WANTED feature, not a downside. Preference: **Copenhagen/Denmark (but only for top-tier salary)** or **London/UK**.
+- Copenhagen / Denmark, hybrid or onsite (relocation): PASS - preferred, but flag whether salary looks top-tier (see Salary Benchmark)
+- London / UK, hybrid or onsite (relocation): PASS
+- Fully remote (EU-friendly, incl. Poland): PASS
+- Elsewhere with relocation support: FLAG (discuss with user)
+- For every role: check for **visa sponsorship / relocation package** and note it (candidate is a non-EU... Ukrainian national in Poland - relocation logistics matter).
+- Heavy on-call / support-dominated: FLAG (deal-breaker leaning FAIL)
+- Non-Python core stack: FLAG (deal-breaker leaning FAIL)
 - Frequent international travel: FLAG (discuss with user)
+
+**Salary weighting note:** Artem weights salary heavily, especially for Copenhagen (a CPH offer must pay top-tier to beat London). Treat a clearly low salary for the market as a strong negative in Career Alignment, and always surface the Salary Benchmark / posted range when available.
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -67,19 +74,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Get a role where the title and mandate match the scope he already operates at (Staff / Lead / Platform) - he frequently works above his current Senior title
+- Work on high-load / distributed / large-scale messaging systems with real design ownership
+- Stay in a product engineering environment (build over maintain); keep technical leadership + mentoring
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: designing and building backend systems, async/high-load problems, architecture decisions, tooling and automation
+- Tasks that drain: on-call/support-dominated work, firefighting, maintenance-only roles, non-Python stacks
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Location**: based in Copenhagen; targeting Copenhagen + London. Hybrid preferred; fully remote acceptable (incl. remote if relocating). London on-site implies relocation - flag it.
+- **Flexibility**: hybrid strongly preferred over full onsite
+- **Professional development**: wants growth toward staff/lead and harder technical problems
 
 ### 6. Salary Benchmark (Optional)
 

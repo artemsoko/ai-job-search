@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Artem Sokoliuk
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Artem Sokoliuk, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +10,66 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Artem Sokoliuk
+- **Location:** Warsaw, Poland. Active relocation focus (2026-07): **Amsterdam/Netherlands (priority)** and **London/UK**; Copenhagen still of interest but only for top-tier salary. NL Highly Skilled Migrant route is fast/degree-flexible + 30% ruling. Every target role is a relocation - a wanted feature, not a downside. Prioritise companies that sponsor visas / relocate. Salary weighted heavily. Hybrid preferred; remote acceptable.
+- **Languages:** Ukrainian (native), English (full professional), Russian (native)
+- **Status:** Employed - Senior Software Engineer at Capital.com; open to new opportunities
+- **LinkedIn headline:** "Senior Software Engineer"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Master of Arts (MA), Marketing (goods & services markets)** (years TBD) - Kyiv National University of Trade and Economics (KNUTE)
+- **Bachelor's degree** (years TBD) - Kyiv National University of Trade and Economics (KNUTE)
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Senior Software Engineer** (Feb 2023 - Present) - **Capital.com** (Warsaw, Poland)
+  - Build/own backend services for CRM client communication: transactional + marketing messaging (email, SMS, in-app inbox)
+  - Scale: millions of messages/day across dozens of services
+  - Operate at Senior/Staff level: architecture, end-to-end delivery, onboarding; **leads 2 mid-level engineers**
+  - Stack: Python (primary); limited/indirect exposure to Golang and Java; Claude Code for agentic automation
+- **Senior Python Backend Engineer** (Dec 2018 - Jan 2023) - **Ciklum** (Poland/Ukraine)
+  - Powtoon (Django/DRF, tech design, feature lead), Hopster (GCP BigData/Datastore)
+- **Python Software Engineer** (Dec 2015 - Dec 2018) - **SoftServe** (Ukraine)
+  - Atlassian Hipchat/Stride: high-load async messaging backend (aiohttp, Twisted)
+  - Cisco Pangea: microservices deployment platform, Terraform
 
-### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Python (10+ yrs, by far strongest), Django/DRF, FastAPI, Pydantic, Flask, aiohttp, asyncio, PostgreSQL, REST APIs, async/high-load backend, system design, Clean Architecture (preferred)
+- **Secondary:** JavaScript, MySQL, Redis, Elasticsearch, Docker, Kubernetes, Terraform
+- **Limited/indirect only:** Golang, Java (not proficient; roles needing these as core language are a poor fit)
+- **Leadership:** technical direction, mentoring/leading engineers (2 reports), onboarding (Staff/Lead level)
+- **Domain:** Large-scale CRM messaging (millions/day), high-load/real-time backend, MarTech in fintech
+- **Software:** AWS (SQS/S3/IAM), GCP (App Engine/Datastore/BigQuery), Git, Jenkins, Bamboo, Linux/bash/vim, Claude Code
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Python Brainbench**
+- **Python (Codecademy)**
+- **Learn Python Programming From Scratch**
+- **Project Management: The Basics for Success**
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None on record.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None on record.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- Self-assessment (no formal test). -->
+- **Strengths:** deep Python/backend experience, high-load systems, architecture (SOLID/KISS/DRY), detail-oriented, mentoring
+- **Style:** enjoys calm, geeky engineering environments; strong on detail; flexible enough for fast decisions when needed
+- **Thrives in:** product engineering teams with real development work (not maintenance-heavy)
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building and designing backend systems (Python), not just maintenance
+- High-load / distributed / large-scale messaging problems
+- Getting into the details; setting up clean architecture and tooling
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Fintech / trading: Capital.com, and similar CPH/London fintech
+- Product tech companies with Python backends
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Heavy on-call / support-dominated roles (want development, not firefighting)
+- Non-Python core stack (Python must be the primary language)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
@@ -82,10 +77,85 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - `.claude/skills/` - AI skill definitions for the application workflow
 - `.agents/skills/` - Job search CLI tools
 
+## Application Log (single source of truth)
+
+`.claude/skills/job-scraper/job_search_tracker.csv` records every application. It is
+**authoritative** and must never be written by hand.
+
+- **Write:** `./applied <url>` (wrapper for `scripts/log_application.py`). Derives company
+  and role from the URL for Greenhouse, Ashby, Recruitee, LinkedIn, Personio and Lever;
+  pass `--company` / `--role` when it cannot. It refuses duplicates and mirrors the status
+  into `seen_jobs.json`, so scrape dedup sees it too.
+- **Read:** a SessionStart hook runs `./applied --brief` and injects the log into context at
+  the start of every session. Trust that block over memory.
+- **Query before suggesting anything:** `./applied --check <company|url>`.
+- **Repair:** `./applied --sync` reconciles the CSV against `seen_jobs.json`. The two drifted
+  badly once (17 applied in the CSV, 2 in seen_jobs), which silently broke dedup.
+
+Artem applies from a browser outside sessions, so the log is only as good as this habit.
+**Whenever he says he applied to something, log it immediately** rather than only replying.
+
+## Job Search: collect broad, filter by body
+
+**Never put a stack word (Python, Django, FastAPI, PostgreSQL) in a search query.** Proven
+2026-08-14: `-q "Python" -l "Netherlands"` paged six deep never returned NVIDIA's
+"Senior Software Developer" req, whose body requires Python. LinkedIn's guest search indexes the
+title, not the description, so a stack-word query only finds employers who put the stack in the
+title. NVIDIA had 6 open NL reqs and zero reached a 371-entry `seen_jobs.json`.
+
+```bash
+./hunt                                    # collect (generic titles, paginated) -> screen every body
+./hunt --jobage 7 --pages 2               # quick daily sweep
+./scripts/rank_screened.py --min-python 2 # rank by Python weight found IN THE BODY
+```
+
+Search generic role titles only, always paginate (page size is fixed at 10 and `--limit` does
+not add pages), and let `./screen` decide the stack from the posting text.
+
+## Screening Gate (mandatory before any recommendation)
+
+**Never surface a posting as a recommendation, and never hand over an apply link, until its
+BODY has been screened.** Title and location are not enough. This gate exists because a Webb
+Traders req demanding *"Expert-level C++"* with zero Python mentions was recommended on
+2026-08-13 purely on its title, in direct violation of the exclusion rules that were already
+written down.
+
+```
+./screen <url>            # EXCLUDE / FLAG / PASS, with the quote that fired
+./screen --unassessed     # sweep every seen_jobs entry whose body was never read
+```
+
+`scripts/screen_job.py` fetches the body from the employer's ATS (Greenhouse, Ashby, Recruitee)
+or the LinkedIn CLI, then applies the hard rules from `job-scraper/search-queries.md` in code:
+no-sponsorship, must-already-reside, local-language-required, clearance/citizenship,
+ML/AI-engineer role, and Python-absent-while-a-rival-language-is-core. It also raises FLAGs for
+on-call, degree requirements, below-senior grade, contract terms, 4-5 days onsite, and
+undisclosed recruiter clients. Exit code 3 means EXCLUDE.
+
+Rules:
+- **EXCLUDE means it never reaches Artem** as a recommendation. Report it in the dropped list
+  with the quote instead.
+- **PASS is not an endorsement.** It only means no hard rule fired; still judge fit.
+- **UNREACHABLE is not a pass.** If the body could not be fetched, say so rather than
+  recommending blind.
+- The `assessed` field in `seen_jobs.json` records whether a body was read. An entry with
+  `assessed: false` is **not eligible to be recommended**. `screen --unassessed` writes
+  `screen_verdict` back and auto-skips anything that fires a hard rule.
+- When being efficient with detail fetches during a scrape, that efficiency applies to *ranking*
+  only. Anything about to be recommended must be screened first, no exceptions.
+
+### Never hand over a LinkedIn URL as the apply link
+A LinkedIn posting can read "0 days ago" in search and still be closed. The
+"no longer accepting applications" marker is absent from the guest HTML, so liveness cannot
+be checked programmatically there. Verify on the employer's own ATS board and give that link:
+`boards-api.greenhouse.io/v1/boards/<token>/jobs`,
+`api.ashbyhq.com/posting-api/job-board/<token>`,
+`https://<token>.recruitee.com/api/offers/`.
+
 ## Workflow for New Job Applications
 1. User provides a job posting (URL or text)
 2. **Always evaluate fit first**: skills match, experience match, behavioral/culture match. Present this assessment to the user before proceeding.
-3. If good fit: create targeted CV (`cv/main_<company>.tex`) and cover letter (`cover_letters/cover_<company>_<role>.tex`)
+3. If good fit: reuse the **canonical CV** (`cv/Artem_Sokoliuk_CV.tex`) and write a **tailored cover letter** (`cover_letters/Artem_Sokoliuk_Cover_<Company>[_<Role>].tex`). Only build a role-specific CV (`Artem_Sokoliuk_CV_<Company>.tex`) when the role type or required stack genuinely differs - see `05-cv-templates.md`. **Every file sent to an employer must be named starting with "Artem_Sokoliuk".**
 4. **Verify both documents** (see Verification Checklist below)
 5. Prepare interview talking points based on the role requirements and your strengths
 
@@ -106,8 +176,14 @@ After creating or updating a CV or cover letter, re-read the generated file and 
 - [ ] Key job requirements are addressed (with gaps acknowledged where relevant)
 - [ ] Nice-to-have requirements are highlighted where there is a match
 
+### Naming & deliverables
+- [ ] Every file that will be uploaded is named starting with **`Artem_Sokoliuk`** (never `main_<company>.pdf` - a recruiter must be able to find it by name later)
+- [ ] Cover letter follows `Artem_Sokoliuk_Cover_<Company>[_<Role>].pdf`; CV is the canonical `Artem_Sokoliuk_CV.pdf` unless a role-specific variant was genuinely justified
+- [ ] No stray LaTeX escaping bugs: `\%`, `\&`, `\_`, `\$` escaped; no bare `~` used to mean "approximately" (it renders as nothing)
+
 ### Consistency
 - [ ] CV follows the standard 2-page moderncv/banking format
+- [ ] CV opens with a **Selected Impact** block of 3-4 quantified, individually verifiable outcomes
 - [ ] Cover letter uses cover.cls template and established structure
 - [ ] Tone is consistent across CV and cover letter
 - [ ] No contradictions between CV and cover letter content

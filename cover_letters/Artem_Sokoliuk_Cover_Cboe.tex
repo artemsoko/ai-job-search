@@ -1,0 +1,36 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Cover Letter - Cboe Clear Europe, Senior Software Engineer / Tech Lead Clearisq (Amsterdam)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+\namesection{}{\Huge{Artem Sokoliuk}}{  \href{mailto:artemsokoliuk@gmail.com}{artemsokoliuk@gmail.com} | +48 517 288 201 |  \urlstyle{same}\href{https://www.linkedin.com/in/artemsokoliuk/}{LinkedIn}
+}
+\currentdate{\today}
+\lettercontent{Dear Cboe Clear Europe Hiring Team,}
+
+\lettercontent{I am applying for the Senior Software Engineer role leading Clearisq. Taking technical ownership of a risk engine you have just brought in-house from a vendor, then extending it for liquidity stress tests without losing determinism or auditability, is the kind of problem I have spent the last three years on. I work inside a regulated trading business, on the side where consent, caps and quiet hours are compliance obligations rather than product features, so auditable behaviour under load is familiar ground.}
+
+\lettercontent{What I would bring to the Clearisq codebase:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{Owning inherited code and rewriting it safely:} at Capital.com I took over a critical send path and rewrote it to run 5 to 6 times faster, and found a defect that had been reporting failed work as succeeded. Correctness first, then speed.
+    \item \textbf{Architecture with written decisions:} I authored the spec and design for our communication-governance engine from a PRD and own most of its code, including optimistic-locking quotas and idempotent decisions, so replays never double-count.
+    \item \textbf{Technical leadership without a reporting line:} acting tech lead for about six months, 348 merge requests reviewed and 200+ authored, and I set up a standards reference repo that four other repositories adopted.
+    \item \textbf{AI-assisted engineering as practice, not novelty:} I use Claude Code daily to comprehend unfamiliar code, generate tests and analyse logs, and I care about the guardrails that keep it from eroding correctness.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{To be direct about the split in your team: Python is my primary language after 10+ years, and my Java exposure is limited to reading and small changes rather than owning services. I would relocate to Amsterdam with my family and would need Dutch Highly Skilled Migrant sponsorship. I look forward to hearing from you.}
+
+\begin{flushright}
+\closing{Kind regards,}
+\signature{Artem Sokoliuk}
+\end{flushright}
+\end{document}

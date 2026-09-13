@@ -1,0 +1,175 @@
+%% Artem Sokoliuk - canonical CV (company-agnostic). Tailor the COVER LETTER per role, not this file.
+%% Compile with: lualatex Artem_Sokoliuk_CV.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{needspace}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Artem Sokoliuk - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+
+% personal data
+\name{Artem}{Sokoliuk}
+\address{Warsaw, Poland (open to relocation)}{}{}
+\phone[mobile]{+48 517 288 201}
+\email{artemsokoliuk@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/artemsokoliuk/}{LinkedIn}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Senior/Staff-level backend engineer with 10+ years in Python, building high-load, event-driven systems and REST APIs on PostgreSQL, AWS and Kubernetes. At Capital.com I own client-messaging services handling millions of messages a day across dozens of services in a regulated fintech, set technical direction and mentor engineers. I favour a Clean Architecture approach and work in an AI-augmented way with Claude Code every day. Open to relocation.}
+
+% ============================================================
+%     SELECTED IMPACT
+% ============================================================
+
+\section{Selected Impact}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{5--6x faster message delivery}: re-architected the send path (Python executor, Go worker, database-level idempotency), taking million-scale campaigns from 5--6 hours down to about one hour and lifting push throughput \textbf{8--10x}, while eliminating a critical false-delivery bug.
+
+\item \textbf{10x audience scale, to 20M users}: automated the user-profiling pipeline on Airflow (six runs a day with alerting), removing a manual bottleneck and becoming service owner.
+
+\item \textbf{Designed and own the communication-governance engine}: real-time caps, consent, quiet hours and holdout groups, with optimistic-locking quota accounting and idempotent decisions across dozens of services.
+
+\item \textbf{Acting tech lead for six months}: 348 merge requests reviewed and 200+ authored; raised test coverage on a core service to 73\% and spread the engineering standards to 4+ repositories.
+
+\end{itemize}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Python \& APIs}: Python (10+ yrs), FastAPI, Pydantic, Flask, Django REST Framework, aiohttp, asyncio; REST API design and service-oriented architecture with a Clean Architecture approach and strong typing.
+
+\item \textbf{Data \& Storage}: PostgreSQL at the heart of services; MySQL, Redis (caching), Elasticsearch; data modelling and data-processing pipelines.
+
+\item \textbf{Cloud \& Delivery}: AWS (Lambda, ECS, S3, SQS, IAM), Docker, Kubernetes, Terraform; CI/CD with Jenkins and Bamboo; internal developer-platform mindset. Uses Claude Code for agentic automation.
+
+\item \textbf{Scale \& Architecture}: high-load, real-time and async systems; SOLID, KISS, DRY; system design and technical direction.
+
+\item \textbf{Technical Leadership}: senior IC leading projects, running code reviews, mentoring engineers, and scoping work in cross-functional teams (currently leads two engineers).
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{2023--Present}{Senior Software Engineer}{Capital.com}{Warsaw, Poland}{}{\vspace{1pt}
+\begin{itemize}
+    \item Build and own Python backend services for CRM client communication (service and marketing messaging via email, SMS and in-app inbox), handling millions of messages per day across dozens of services in a fintech platform.
+    \item Design system architecture and deliver APIs, data processing and automation end to end; operate at Staff/Lead level.
+    \item Own reliability and delivery of the messaging services and their integration with upstream marketing-intelligence systems.
+    \item Lead and mentor two engineers, run code reviews, and own onboarding and code quality.
+    \item Work primarily in Python within a polyglot codebase (some exposure to Golang and Java).
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2018--2023}{Senior Python Backend Engineer}{Ciklum}{Poland / Ukraine}{}{\vspace{1pt}
+\begin{itemize}
+    \item Powtoon (2020--2022): owned technical design and feature leading for a Python 3 backend built on Django and Django REST Framework, delivering and validating REST APIs.
+    \item Hopster (2018--2019): mobile-app backend on Google Cloud Platform (BigData, Datastore); built new tools and data-processing features.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2015--2018}{Python Software Engineer}{SoftServe}{Ukraine}{}{\vspace{1pt}
+\begin{itemize}
+    \item Atlassian Hipchat/Stride: backend for a high-load Python 3 instant-messaging platform; asynchronous programming with aiohttp and Twisted at scale.
+    \item Cisco Pangea: improved tooling for a microservices deployment platform; implemented and improved Terraform and deployment configuration.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{4\baselineskip}
+\item{\cventry{2008--2015}{Earlier Experience}{Freelance Web Development \& Market Research}{Ukraine}{}{\vspace{1pt}
+\begin{itemize}
+    \item Freelance web developer: maintained WordPress and PrestaShop sites and built landing pages (HTML/CSS/JavaScript).
+    \item Market-research and data-analysis roles (Philip Morris International, GfK, Ukrainian Marketing Group) before transitioning into software engineering, giving a business-impact perspective on backend work.
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{}{Master of Arts (MA), Marketing}{Kyiv National University of Trade and Economics (KNUTE)}{Kyiv, Ukraine}{}{}}
+
+\vspace{3pt}
+
+\item{\cventry{}{Bachelor's degree}{Kyiv National University of Trade and Economics (KNUTE)}{Kyiv, Ukraine}{}{}}
+
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item Ukrainian (native), English (full professional), Russian (native).
+\end{itemize}
+
+% ============================================================
+%     CERTIFICATIONS
+% ============================================================
+
+\section{Certifications}
+\vspace{1pt}
+\begin{itemize}
+\item Python Brainbench; Python (Codecademy); Learn Python Programming From Scratch; Project Management: The Basics for Success.
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{Available upon request.}
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,36 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Cover Letter - DNEG / Brahma AI, Senior Backend Engineer (London)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+\namesection{}{\Huge{Artem Sokoliuk}}{  \href{mailto:artemsokoliuk@gmail.com}{artemsokoliuk@gmail.com} | +48 517 288 201 |  \urlstyle{same}\href{https://www.linkedin.com/in/artemsokoliuk/}{LinkedIn}
+}
+\currentdate{\today}
+\lettercontent{Dear Brahma AI Hiring Team,}
+
+\lettercontent{I am applying for the Senior Backend Engineer role. Your posting is clear that this is backend architecture, API design and system performance, with the models owned by ML engineers alongside you. That division suits me exactly: server-side Python is what I have done for 10+ years, and I would rather make inference reliable to consume than train it.}
+
+\lettercontent{Mapped to your must-haves:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{Async and event-driven at load:} I began on high-load asynchronous messaging backends for Atlassian's chat products using aiohttp and Twisted, and today own services processing millions of messages a day, including a Kafka-consuming service I architected from scratch.
+    \item \textbf{APIs, PostgreSQL and Redis:} REST services built with FastAPI, Django REST Framework and Flask, on PostgreSQL and Redis, with idempotency, retries with backoff and queue-based throughput work throughout.
+    \item \textbf{Operational discipline:} I rewrote a send path to run 5 to 6 times faster and, more usefully, found a defect reporting deliveries as succeeded when they had failed. Profiling and root cause interest me more than closing the ticket.
+    \item \textbf{AI tooling, used honestly:} Claude Code is part of how I ship daily, for refactoring, tests and log analysis. Models themselves are not my craft, which is why a role with ML engineers beside me rather than instead of me is the right fit.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{I am based in Warsaw, so I already sit inside your GMT window, and I am actively looking to relocate to London with my family, which would need UK sponsorship. Could you confirm whether this role is a London hire or remote within the timezone? I look forward to hearing from you.}
+
+\begin{flushright}
+\closing{Kind regards,}
+\signature{Artem Sokoliuk}
+\end{flushright}
+\end{document}

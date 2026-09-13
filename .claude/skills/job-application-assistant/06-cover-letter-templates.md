@@ -8,9 +8,21 @@ framework_version: 1.0.0
 
 Cover letters use a custom LaTeX document class (`cover.cls`) with Lato/Raleway fonts.
 
-**Output file:** `cover_letters/cover_<company>_<role>.tex`
+**Output file:** `cover_letters/<First>_<Last>_Cover_<Company>[_<Role>].tex`
 **Compile with:** XeLaTeX (cover.cls requires fontspec)
 **Font directory:** `cover_letters/OpenFonts/fonts/`
+
+### File naming (mandatory)
+
+Every artefact sent to an employer must start with the candidate's name, so a recruiter can find it on disk months later: `Artem_Sokoliuk_Cover_PeterPark_Staff.pdf`. Add the role token only when applying to two roles at the same company. Company tokens are CamelCase (`PeterPark`, `PandaDoc`, `MOIA`). See `05-cv-templates.md` for the full naming table.
+
+**The cover letter is where tailoring lives.** The CV stays canonical and company-agnostic (one file); the cover letter carries the role-specific angle, the company research, and the honest gap framing. Do not generate a new CV per application just to change a sentence.
+
+### Escaping traps that silently break the compile or the meaning
+
+- `%` is a comment character: write `30\%` (an unescaped `30% ruling` swallows the rest of the line and the file fails to compile).
+- `&` must be `\&`, `_` must be `\_`, `$` must be `\$` (e.g. `\$170M`).
+- A bare `~` is a non-breaking space, not a tilde: it renders as nothing, so "~6 months" silently becomes "6 months". Write "about six months" instead.
 
 ### Compile command
 

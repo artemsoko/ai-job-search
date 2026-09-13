@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Screen a job posting against the hard-exclusion rules before it is ever recommended.
+#   ./screen <url>              one posting
+#   ./screen --unassessed       every seen_jobs entry whose body was never read
+#   ./screen <url> --json       machine-readable
+exec python3 "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/scripts/screen_job.py" "$@"

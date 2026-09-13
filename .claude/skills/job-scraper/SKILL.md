@@ -41,11 +41,45 @@ Optional arguments:
 2. Read `job_search_tracker.csv` to extract already-applied companies+roles
 3. Read `search-queries.md` (this directory) for the search strategy
 
-### Step 1: Search
+### Step 1: Search — collect BROAD, never filter on the stack in the query
 
-Read `search-queries.md` (this directory) for the search strategy. By default, run the top 3 priority query categories. If the user said "broad", run all categories. If the user specified a focus area (e.g. "data science"), prioritize queries from that category.
+**The single most important rule in this skill.** Verified empirically on 2026-08-14:
 
-**Use the installed CLI tools as the primary search mechanism.** Fall back to `WebSearch` only for portals that do not have a CLI skill, or if `bun` is unavailable on the system.
+> LinkedIn's guest keyword search does **not** reach the job description. Querying
+> `-q "Python"` for the Netherlands and paging **six deep (60 results)** never returned
+> NVIDIA req 4453393675, whose body says *"Proficiency in Python"* but whose title is
+> "Senior Software Developer". NVIDIA had 6 open NL reqs; **zero** were in a 371-entry
+> `seen_jobs.json`.
+
+Therefore **a query containing a stack word can only ever find postings that put that word
+in the title.** Every stack-word query silently discards the employers who describe the stack
+in the body, which is most of them. This is how NVIDIA, and an unknown number of others,
+stayed invisible for a month.
+
+**The pipeline is inverted: search generic, filter by body.**
+
+```bash
+./hunt                        # 30-day window, 3 pages per query, then screens every body
+./hunt --jobage 7 --pages 2   # quick daily sweep
+./hunt --dry-run              # print the query plan without running it
+./scripts/rank_screened.py --first-seen <today> --min-python 2
+```
+
+`scripts/hunt.py` runs the whole thing: collect → dedup → record → screen every body →
+hand off to ranking. Prefer it over ad-hoc CLI calls.
+
+Rules for any query you write by hand:
+
+1. **Generic role titles only.** "Senior Software Engineer", "Senior Software Developer",
+   "Senior Backend Engineer", "Staff/Lead/Principal Software Engineer", "Backend Developer",
+   "Platform Engineer", "Tech Lead".
+2. **Never put Python, Django, FastAPI, asyncio, PostgreSQL or any other stack word in the
+   query.** The stack is decided in Step 3 by reading the body.
+3. **Always paginate.** Page size is fixed at 10 and `--limit` does not add pages. Pass
+   `--page 1`, `--page 2`, `--page 3` explicitly.
+4. **Recency: 30 days, not 14.** Good roles sit open for months.
+
+Fall back to `WebSearch` only for portals with no CLI skill, or if `bun` is unavailable.
 
 #### 1a. Check bun availability
 
@@ -96,9 +130,30 @@ For every candidate:
 - Skip if the URL or company+title combo already exists in `seen_jobs.json`
 - Skip if the company+role already appears in `job_search_tracker.csv`
 
-### Step 3: Quick Fit Assessment
+### Step 3: Screen, then Quick Fit Assessment
 
-For each new job, do a rapid fit check (NOT the full evaluation from `04-job-evaluation.md` - just a quick signal):
+**3a. Screening gate (mandatory, runs on the posting body).** Before any job is presented:
+
+```bash
+./screen <url>          # one posting: EXCLUDE / FLAG / PASS with the quote that fired
+./screen --unassessed   # sweep everything in seen_jobs.json whose body was never read
+```
+
+`scripts/screen_job.py` applies the hard rules from `search-queries.md` in code: no-sponsorship,
+must-already-reside, local-language-required, clearance/citizenship, ML/AI-engineer role, and
+Python-absent-while-a-rival-language-is-core. It writes `screen_verdict` into `seen_jobs.json`
+and auto-sets `status: skipped` on anything that fires a hard rule.
+
+- **EXCLUDE** → never present it. List it in the dropped table with the quoted reason.
+- **FLAG** → present it, but surface the flag (on-call, degree bar, below-senior, contract,
+  4-5 days onsite, undisclosed client) so the candidate judges it.
+- **PASS** → no hard rule fired. This is *not* an endorsement; still assess fit.
+- **UNREACHABLE** → say the body could not be read. Do not recommend blind.
+
+An entry with `assessed: false` has never had its body read and is **not eligible** to be
+presented as a recommendation.
+
+**3b. Quick fit check** on what survives (NOT the full evaluation from `04-job-evaluation.md`):
 
 - **High match**: Role directly involves your core skills
 - **Medium match**: Role is adjacent to your experience
@@ -165,5 +220,5 @@ If the user decides to apply to any job, add a row to `job_search_tracker.csv`.
 2. **Respect deduplication.** Always check seen_jobs.json AND job_search_tracker.csv before presenting.
 3. **Focus on configured geographic area.** Skip jobs that require relocation or are clearly outside commute range.
 4. **Only open positions.** Skip postings with expired deadlines or those marked as closed.
-5. **Be efficient with detail fetches.** Don't run `detail` or WebFetch on every search hit — pre-filter by title/snippet, then fetch only promising matches.
+5. **Be efficient with detail fetches, but never at the cost of the screening gate.** Don't run `detail` or WebFetch on every search hit while *ranking* — pre-filter by title/snippet, then fetch only promising matches. **But nothing may be presented as a recommendation, and no apply link may be handed over, until `./screen <url>` has read its body.** Title-only judgement is how a "Expert-level C++" req with zero Python got recommended on 2026-08-13. Screening is cheap: `./screen --unassessed` sweeps the backlog in one command.
 6. **Parallel searches.** Run portal CLI searches in parallel; use WebSearch only for gaps the CLIs don't cover.

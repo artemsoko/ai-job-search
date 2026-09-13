@@ -1,0 +1,37 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Cover Letter - Newzoo, Software Engineer (Amsterdam)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+\namesection{}{\Huge{Artem Sokoliuk}}{  \href{mailto:artemsokoliuk@gmail.com}{artemsokoliuk@gmail.com} | +48 517 288 201 |  \urlstyle{same}\href{https://www.linkedin.com/in/artemsokoliuk/}{LinkedIn}
+}
+\currentdate{\today}
+\lettercontent{Dear Newzoo Hiring Team,}
+
+\lettercontent{I am applying for the Software Engineer role. Your posting describes backend services, ingestion pipelines and infrastructure owned by one engineer who follows where the business needs them, and that is exactly the shape of my work: 10+ years in Python, currently across services, Airflow pipelines and their reliability at Capital.com.}
+
+\lettercontent{Your question first. To investigate a 30\% week-over-week jump in BigQuery spend, I would start in \texttt{INFORMATION\_SCHEMA.JOBS} and break \texttt{total\_bytes\_billed} down by job, user and query fingerprint across the two weeks, which separates a new query from a query running more often from the same query suddenly scanning more. Then I would check whether the tables underneath changed, since a lost partition filter, a widened backfill or a clustering change moves scanned bytes without anyone touching SQL. My first assumption is a scheduled or dbt job, not an ad-hoc analyst, because scheduled work compounds silently.}
+
+\lettercontent{On your stack specifically:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{Python, Flask, PostgreSQL, Airflow, GCP:} I own an Airflow repo that runs a user-profiler six times a day, which unlocked a 10x jump in addressable audience to roughly 20M users. My earlier GCP work was BigQuery and Datastore analytics.
+    \item \textbf{Pipelines that must not silently lie:} I rewrote a million-scale send path to run 5 to 6 times faster and fixed a bug that reported deliveries as succeeded when they had not been.
+    \item \textbf{Claude Code daily:} refactoring, tests and documentation, with the reasoning still mine.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{I would relocate to Amsterdam with my family and would need Dutch Highly Skilled Migrant sponsorship. I would also want to understand what follows the initial 12-month term. I look forward to hearing from you.}
+
+\begin{flushright}
+\closing{Kind regards,}
+\signature{Artem Sokoliuk}
+\end{flushright}
+\end{document}

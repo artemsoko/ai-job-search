@@ -6,21 +6,53 @@ framework_version: 1.0.0
 
 <!-- SETUP: Profile statements and section ordering are personalized by running /setup -->
 
+## ONE canonical CV, tailored cover letters (default strategy)
+
+**Do not generate a new CV per application.** Maintain **one canonical, company-agnostic CV** and tailor the **cover letter** per role instead. Reasons this is the default:
+
+- A recruiter who downloads `main_peterpark.pdf` cannot find the candidate by name later. Filenames must lead with the candidate's name.
+- Per-company CV variants proliferate fast (dozens of near-identical files), drift out of sync when a fact changes, and give little benefit: the CV carries facts, the cover letter carries the targeting.
+- A single well-polished CV is easier to keep factually correct, which matters more than keyword micro-tuning.
+
+**Build a role-specific CV only when there is a real reason**, e.g. a genuinely different role type (backend vs data platform vs lead), or a posting whose required stack is materially different from the canonical emphasis. When you do, keep the naming convention below.
+
+### File naming (mandatory)
+
+| Artefact | Filename | Example |
+|---|---|---|
+| Canonical CV | `<First>_<Last>_CV.tex/.pdf` | `Artem_Sokoliuk_CV.pdf` |
+| Role-specific CV (only when justified) | `<First>_<Last>_CV_<Company>.tex/.pdf` | `Artem_Sokoliuk_CV_Adyen.pdf` |
+| Cover letter | `<First>_<Last>_Cover_<Company>[_<Role>].tex/.pdf` | `Artem_Sokoliuk_Cover_PeterPark_Staff.pdf` |
+| ATS-plain variant (no hyperlinks) | append `_plain` | `Artem_Sokoliuk_CV_plain.pdf` |
+
+Company tokens are CamelCase with no spaces or underscores inside them (`PeterPark`, `PandaDoc`, `MOIA`). Never ship a file whose name does not begin with the candidate's name.
+
+## The distinctive element: a "Selected Impact" section
+
+The canonical CV opens with a **Selected Impact** section directly after the profile statement, before Core Competencies: 3-4 bullets, each leading with a **bolded quantified outcome**, then the mechanism in one clause.
+
+This is the CV's differentiator. Most senior CVs list responsibilities and no numbers; a scannable numbers-first block at the top is what a hiring manager actually reads. Rules:
+
+- **Every number must be verifiable from the candidate's own records** (performance review, promo evidence, tickets, dashboards). Never estimate or round upward to look better. A number you cannot defend in an interview is worse than no number.
+- Lead with the outcome, not the technology: "5-6x faster message delivery" before "re-architected the send path".
+- Include one leadership/scope bullet (mentoring, reviews, standards adoption), not only throughput wins.
+- **No LaTeX tildes for "approximately".** A bare `~` is a non-breaking space in LaTeX and renders as nothing, silently turning "~6 months" into "6 months". Write "about", "roughly", or "six" instead, or use `$\sim$`.
+
 ## Template: LaTeX moderncv (Banking Style)
 
 All CVs use the moderncv LaTeX package with the "banking" style and "blue" color scheme.
 
-**Output file:** `cv/main_<company>.tex`
+**Canonical file:** `cv/<First>_<Last>_CV.tex`
 **Compile with:** **lualatex** on MiKTeX/TeX Live. pdflatex often fails on modern MiKTeX installs with `fontawesome5` font-expansion errors; lualatex handles the same sources cleanly.
 **Master reference:** `cv/main_example.tex` (comprehensive CV with all competencies, experience, and achievements - use as source when building targeted CVs)
 
 ### Compile command
 
 ```bash
-cd cv && lualatex -interaction=nonstopmode main_<company>.tex
+cd cv && lualatex -interaction=nonstopmode <First>_<Last>_CV.tex
 ```
 
-Expected output: `Output written on main_<company>.pdf (2 pages, ...)`. Any page count other than 2 is a failure that must be fixed before presenting to the user.
+Expected output: `Output written on <First>_<Last>_CV.pdf (2 pages, ...)`. Any page count other than 2 is a failure that must be fixed before presenting to the user.
 
 ## Document Structure
 
@@ -109,12 +141,11 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Senior Python Backend / Software Engineer roles:**
+> Senior Software Engineer with 10+ years building Python backends, from high-load async messaging systems to product web applications and marketing-intelligence data platforms. Deep with Django, DRF, Flask, aiohttp and asyncio, backed by strong architecture fundamentals (SOLID, KISS, DRY) and hands-on AWS, GCP, Docker and Kubernetes. Currently at Capital.com; comfortable owning design and delivery end to end.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Platform / Staff / Lead-leaning roles:**
+> Senior backend engineer moving toward staff-level scope, with a decade of Python across messaging, fintech and MarTech systems. Combines async/high-load service design with infrastructure fluency (Terraform, Kubernetes, CI on Jenkins/Bamboo) and a track record of feature leading, technical design and multi-repo tooling. Uses Claude Code to automate documentation and governance across services.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

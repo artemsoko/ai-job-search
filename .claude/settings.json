@@ -1,11 +1,31 @@
 {
+  "env": {
+    "CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION": "600"
+  },
   "permissions": {
     "allow": [
       "Skill(job-application-assistant)",
       "Bash(bun run:*)",
       "Bash(python salary_lookup.py:*)",
       "Bash(python3 salary_lookup.py:*)",
-      "Bash(pdftotext:*)"
+      "Bash(pdftotext:*)",
+      "Bash(./applied:*)",
+      "Bash(python3 scripts/log_application.py:*)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /Users/artemsokoliuk/ai-job-search/scripts/log_application.py --brief 2>/dev/null || true",
+            "timeout": 15,
+            "statusMessage": "Loading application log..."
+          }
+        ]
+      }
     ]
   }
 }

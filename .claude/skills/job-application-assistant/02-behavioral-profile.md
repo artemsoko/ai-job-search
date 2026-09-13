@@ -8,7 +8,9 @@ framework_version: 1.0.0
 <!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
 
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+*[Self-assessment - no formal PI/DISC test on file. Review before relying on this.]*
+
+Artem is a detail-oriented senior/staff engineer who thrives in calm, focused, "geeky" engineering environments. Strong on depth and correctness, while flexible enough to make fast decisions when a situation calls for it.
 
 ## Core Behavioral Drives
 
@@ -20,32 +22,30 @@ framework_version: 1.0.0
 | [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+*[Self-assessment - review before relying on this.]*
+- **Detail orientation:** goes deep, cares about correctness and clean architecture.
+- **Pragmatic flexibility:** comfortable making fast decisions under uncertainty when needed.
+- **Ownership & mentoring:** operates above title (Staff/Lead), onboards and leads engineers.
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- Calm, focused, "geeky" engineering environments.
+- Real development and design work over maintenance/firefighting.
+- Autonomy and technical ownership.
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+- **Formal leadership title vs. actual scope:** already works at Staff/Lead level; seeking a role where the title and mandate match the scope.
 
 ## Mapping to Job Posting Language
 
 When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+- "ownership", "autonomy", "technical depth", "system design", "craftsmanship", "high-scale", "collaborative engineering culture"
 
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+- "fast-paced high-pressure", "wear many hats" (may mean chaotic/maintenance-heavy), "24/7 on-call ownership"
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- Works well with autonomy and trust; low-drama, engineering-led culture.
+- Less suited to micromanagement or support/maintenance-dominated mandates.
 
 ## Using This in Applications
 - **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Collect broad by generic titles, then filter by posting BODY.
+#   ./hunt                       30-day window, 3 pages per query
+#   ./hunt --jobage 7 --pages 2  quick daily sweep
+#   ./hunt --dry-run             show the query plan
+exec python3 "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/scripts/hunt.py" "$@"
