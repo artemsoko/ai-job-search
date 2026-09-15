@@ -552,3 +552,28 @@ Three-for-three against the email Artem received: assignment, Python experience,
 **Register: discussion, not interrogation.** Consistently reported as friendly — aikikode calls the whole set *"more of a discussion with colleagues rather than an exam"*, and Glassdoor reports interviewers giving hints when candidates stall. What they weight ([Glassdoor](https://www.glassdoor.com/Interview/IMC-Trading-Software-Engineer-Interview-Questions-EI_IE278100.0,11_KO12,29.htm)): *"justifying choices made and not just coding out solutions, where reason matters more than just doing"*, and *"expect to defend technical decisions from past projects"*. No account anywhere describes a line-by-line code audit.
 
 **Two calibration notes.** Most public IMC data is other roles or other regions — HackerRank OA, C++, Java, and the older visitor-pattern Rock-Paper-Scissors assignment. Artem's was the portfolio-to-bank-transfer problem, so the assignment set has rotated; old "the game" accounts describe the previous variant. (One [1Point3Acres thread](https://www.1point3acres.com/interview/thread/1109367) is indexed as a Python "stock transfer problem" — same shape as his — but the page 403s, so that is unverified.) Average process length is reported at ~22 days.
+
+## What Python questions do they actually ask? — searched 2026-09-15
+
+**Honest answer: there is no public list, and that is itself the finding.** Across Taro, Glassdoor, aikikode and the aggregator guides, only a handful of concrete IMC questions are reported, and they are fundamentals rather than trivia. Do not spend the remaining prep time on a quiz deck.
+
+**Actually reported, IMC-specific:**
+
+| Question | Source |
+|---|---|
+| *"What is the difference between threading and multiprocessing?"* | [Taro — SWE, Amsterdam, Jun 2024](https://www.jointaro.com/interviews/companies/imc-trading/experiences/software-engineer-amsterdam-june-1-2024-no-offer-negative-a0e1b0be/) |
+| *"Questions about threading, memory allocation, and explaining a stack to a non-technical person"* | [Taro — SWE Graduate, Chicago](https://www.jointaro.com/interviews/companies/imc-trading/experiences/software-engineer-graduate-chicago-illinois-february-1-2021-no-offer-positive-18b60ecd/) |
+| *"Define binary search to a non-CS person"* | [Glassdoor — Amsterdam](https://www.glassdoor.com/Interview/IMC-Trading-Amsterdam-Interview-Questions-EI_IE278100.0,11_IL.12,21_IM1112.htm) |
+| OOP design, where *"developers keep asking questions about your implementation as you write the code"* | Glassdoor — Amsterdam |
+| *"language-specific questions (C++ memory model, **Python performance**, etc.)"* | [techinterview.org](https://www.techinterview.org/companies/imc-trading-interview-guide/) |
+
+**So the evidence points at exactly three areas, and two of them repeat:**
+1. **Threading vs multiprocessing vs asyncio, and the GIL** — the only question reported twice. Must be automatic. Block B has the answer; the production clause matters more than the definition.
+2. **Memory** — reference counting, the cycle collector, what actually holds objects alive. His own `root.clear()` / 213 MB → 15 MB story is the perfect vehicle and he should steer here.
+3. **Explaining something technical to a non-technical person** — asked in two different forms (stack, binary search). Worth rehearsing once: no jargon, one analogy, thirty seconds.
+
+**What replaces trivia: depth on his own code and his own systems.** IMC's own document says *"We are not evaluating how well you know this language at this stage, but rather how well you can apply the concepts."* aikikode's account of this exact round is *"discussed the home assignment, talked about Python experience in general and some dive-into knowledge"* — a conversation, not a quiz.
+
+**The most useful single sentence found in the whole search** — a Python Engineer describing IMC's coding round as *"non-adversarial"*, where the point is *"seeing if you can take feedback"* ([Taro — Python Engineer, Sydney, Apr 2025](https://www.jointaro.com/interviews/companies/imc-trading/experiences/python-engineer-sydney-australia-april-23-2025-no-offer-positive-0e5f97cb/)). That reframes the whole assignment block: **when they push on his code, the graded behaviour is how he responds, not whether he was right first time.** Conceding "fewest" is therefore not damage control — it is the thing being measured.
+
+Same source on the later coding station: 30 min pre-reading, ~1h coding after a design discussion, ~1h post-discussion and optimisation with *"curve-ball handling"*. One other report names the station task as building **a matching engine for a trading system** — which is the order-book drill in `imc_drills/`, so that drill stays priority one for the final round.
