@@ -532,3 +532,23 @@ Say it once, early, unprompted, and never let it drift:
 > "Python is my language — ten years, and by far my strongest. I work alongside Go and Java and
 > I design and review services in both, but I don't write them, and I'd rather tell you that now
 > than have it surface later."
+
+---
+
+# VERIFIED 2026-09-15 — yes, they really do discuss the assignment in this round
+
+Artem asked whether the "you might be challenged on your home assignment" line is real or boilerplate. Searched it. Both are true: the sentence is boilerplate, and it happens anyway.
+
+**First-hand, senior SDE, IMC Amsterdam** ([aikikode.me](https://aikikode.me/blog/interview-preparation-2022/)) — describing exactly this stage:
+
+> "Discussed the home assignment, talked about Python experience in general and some dive-into knowledge."
+
+Three-for-three against the email Artem received: assignment, Python experience, deep-dive. Same author on the assignment itself: *"I spent about 10-15 min coding the main algorithm and then about 5 hours wrapping it into proper command line tools, Docker, writing unittests, Makefile and documentation."*
+
+**The wording is from IMC's standard deck**, which is public on [Scribd](https://www.scribd.com/document/800068203/IMC-Python-Process-Overview-and-Introduction-Deck) — search snippets quote it verbatim, identical to the email. So it is a template, not a comment on his submission. Still: the account above confirms the discussion is real, and the deck is the same document that correctly predicted every other stage.
+
+**A Python question actually asked in an IMC Amsterdam technical round** ([Taro, June 2024](https://www.jointaro.com/interviews/companies/imc-trading/experiences/software-engineer-amsterdam-june-1-2024-no-offer-negative-a0e1b0be/)): *"What is the difference between threading and multiprocessing?"* → straight into the GIL answer already in Block B. Lead with the production clause: asyncio first for high-concurrency I/O because tens of thousands of in-flight sends cost tasks, not thread stacks.
+
+**Register: discussion, not interrogation.** Consistently reported as friendly — aikikode calls the whole set *"more of a discussion with colleagues rather than an exam"*, and Glassdoor reports interviewers giving hints when candidates stall. What they weight ([Glassdoor](https://www.glassdoor.com/Interview/IMC-Trading-Software-Engineer-Interview-Questions-EI_IE278100.0,11_KO12,29.htm)): *"justifying choices made and not just coding out solutions, where reason matters more than just doing"*, and *"expect to defend technical decisions from past projects"*. No account anywhere describes a line-by-line code audit.
+
+**Two calibration notes.** Most public IMC data is other roles or other regions — HackerRank OA, C++, Java, and the older visitor-pattern Rock-Paper-Scissors assignment. Artem's was the portfolio-to-bank-transfer problem, so the assignment set has rotated; old "the game" accounts describe the previous variant. (One [1Point3Acres thread](https://www.1point3acres.com/interview/thread/1109367) is indexed as a Python "stock transfer problem" — same shape as his — but the page 403s, so that is unverified.) Average process length is reported at ~22 days.
