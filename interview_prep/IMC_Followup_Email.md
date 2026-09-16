@@ -1,25 +1,42 @@
 # Follow-up note after round 2 — draft to send via Riccardo
 
-## Should this be sent? Yes — with one condition
+## Should this be sent? NO — hold it, send only if a signal arrives
 
-**Send it. Do not apologise in it.**
+**Revised 2026-09-16 after Artem pushed back. He was right to.**
 
-**Why send:** IMC's reported grading explicitly includes *"seeing if you can take feedback"*, and
-the req says *"experience working with financial data is a must"* — so the domain gap is the one
-doubt they might actually be arguing about internally. A short note showing he closed it inside a
-day answers that doubt directly, and it is the same trait they said they measure.
+The earlier recommendation to send was wrong, and the reason is specific: it leaned on IMC's
+reported grading of *"seeing if you can take feedback"* — but that line describes the **coding
+round**, i.e. responding to a hint **in session**. Stretching it to cover a post-hoc email is not
+supported by anything.
 
-**Why not apologise:** "I'm sorry, I got flustered, I said something silly" makes a small thing
-large, and reads as low confidence at a firm that trades its own capital. The correct register is
-*"one thing I want to correct"* → the fact → forward. State it the way an engineer corrects a
-number in a design doc: plainly, once, and move on.
+**Why not to send it proactively:**
 
-**Hard rules:**
+- **The bet is asymmetric the wrong way.** A definition-level correction cannot plausibly flip a hiring decision — nobody is hired on being able to define a share. But a note headed *"one correction"* permanently plants *"he didn't know the basics"* in the panel's written record. Small upside, real downside.
+- **Round 2 was with two Senior Python Engineers.** They score Python, code and past work — all of which he landed. Domain questions from engineers are near-certainly not a scored competency; if it were, the take-home would have tested it.
+- **A better venue already exists.** The 30-minute intro with the **Technology Lead** is exactly where domain fluency is expected. There he gets credit for being fluent. In an email he gets credit for errata.
+- **Tone.** Chasing an interview with corrections reads as anxiety and over-indexing on a small miss — the wrong first impression at a firm that prizes composure under uncertainty.
+
+**What to send instead, if anything — a three-line thank-you with zero corrections.** Normal
+etiquette, no downside:
+
+> Hi Riccardo,
+>
+> Thanks for arranging yesterday — I enjoyed the conversation, particularly digging into the
+> assignment with them. Happy to keep going whenever the next stage is scheduled.
+>
+> Best,
+> Artem
+
+**Keep the correction draft below as a CONDITIONAL.** Send it only if Riccardo comes back with
+domain concerns — at that point it is a *response to a signal* rather than unsolicited errata, and
+it lands well. Until then, put the domain work into the live Technology Lead round using
+`IMC_Domain_Primer.md`.
+
+**If it is ever sent, the hard rules still apply:**
 - **Under 200 words.** Longer looks anxious and reads as homework.
 - **No self-criticism.** Not "I was confused", not "I should have known", not "I apologise".
 - **Facts, not effort.** "A share is a unit of ownership" — not "I spent the evening reading about shares".
 - Send to **Riccardo**, let him forward. Do not reach the two engineers directly.
-- Send within **24-48 hours**. Later than that it stops being a correction and becomes a second thought.
 
 ---
 
