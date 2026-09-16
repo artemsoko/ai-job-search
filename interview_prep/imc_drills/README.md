@@ -46,6 +46,25 @@ and say the spec back out loud. Run through the clarifying-questions checklist i
 | 5 | Rate limiter / quota | **You have shipped this.** Connect it to your governance engine out loud. | 25 min |
 | 6 | Merge K sorted streams | Heap of iterators, streaming not materialising. | 25 min |
 
+## Drill 1 now has TWO stages — added 2026-09-16 after researching how the question is really run
+
+`drill1_order_book` holds **38 failing tests**, not 19.
+
+- `test_order_book.py` (19) — correctness: matching, price-time priority, maker price, partial fills, cancel, the lazy-deletion trap.
+- `test_order_book_stage2.py` (19) — **the follow-ups, which reports say carry half the grade**: arrival-order tie-breaking (fails if you sort a level by order id), market / IOC / **FOK with its two-pass requirement**, `modify` (reducing quantity keeps time priority, increasing loses it), and a timing test that a linear-scan `cancel` fails by a wide margin.
+
+Do stage 1 to green first, then stage 2. Both are verified 38/38 against `solutions/order_book.py`.
+
+**Read `ORDER_BOOK_FOLLOWUPS.md` after you have code that passes.** That is the spoken half:
+why cancel must be O(1) and what a tombstone costs, the p99 / array-indexed-by-tick answer,
+monotonic sequence numbers instead of wall clocks, FOK's two passes, single-writer-per-symbol
+concurrency, and the pre-trade risk bridge to your governance engine.
+
+The finding that should change how you spend the hour: **cancels dominate message volume at a
+market maker** — you quote, the market moves, you pull the quote. So cancel is the hot path, not
+match. *"Candidates who optimize match throughput but leave cancel as a linear scan have optimized
+the wrong end."*
+
 ## The sentence you must be able to say without thinking
 
 > "I'd reach for a heap here because I only need the current best price, not a full ordering,

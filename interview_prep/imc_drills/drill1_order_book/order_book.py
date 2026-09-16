@@ -58,3 +58,34 @@ class OrderBook:
     def depth(self, side: str, price: int) -> int:
         """Total resting quantity at one price level. 0 if nothing rests there."""
         raise NotImplementedError
+
+    # ------------------------------------------------------------------ STAGE 2
+    # Do NOT start these until every test in test_order_book.py passes.
+    # These are the follow-ups the research says carry HALF the grade.
+
+    def add_market_order(self, order_id: str, side: str, quantity: int) -> list[Trade]:
+        """No limit price. Sweep the opposite side until filled or the book is empty.
+        Any unfilled remainder is DISCARDED -- a market order never rests."""
+        raise NotImplementedError
+
+    def add_ioc_order(self, order_id: str, side: str, price: int, quantity: int) -> list[Trade]:
+        """Immediate-or-cancel: match what you can at this price or better, discard the rest.
+        Never rests in the book."""
+        raise NotImplementedError
+
+    def add_fok_order(self, order_id: str, side: str, price: int, quantity: int) -> list[Trade]:
+        """Fill-or-kill: all of it, or none of it.
+
+        The trap: you must decide BEFORE mutating anything. If the book cannot fill the whole
+        quantity at this price or better, return [] and leave the book EXACTLY as it was.
+        That is the two-pass requirement."""
+        raise NotImplementedError
+
+    def modify(self, order_id: str, new_quantity: int) -> bool:
+        """Change a resting order's quantity. Returns False if the id is not resting.
+
+        Exchange convention, and the thing being tested:
+          * reducing quantity KEEPS time priority (you are giving liquidity back)
+          * increasing quantity LOSES it -- the order goes to the back of its level
+        new_quantity <= 0 is a cancel."""
+        raise NotImplementedError
