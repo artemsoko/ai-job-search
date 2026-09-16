@@ -258,3 +258,47 @@ than an excuse.
 ⚠️ **Compliance note.** Market makers normally restrict employees' personal trading — pre-clearance,
 restricted lists, holding periods. Mention CFD trading in the **past tense**, as the source of some
 familiarity, not as an ongoing hobby.
+
+---
+
+# 11. Derivatives — the parent concept, and the imprecision to fix
+
+Asked in round 2. Artem's answer was *"I traded with leverage — CFDs, futures"*, which conflates
+two different things.
+
+**Leverage is not what makes something a derivative.** Leverage is a *consequence* — you post
+margin instead of the full notional value. The definition is:
+
+> "A derivative is a contract whose value is **derived from an underlying** — an asset, a rate, an
+> index — rather than from owning that underlying."
+
+## The four families
+
+| | Who is obliged | Payoff | Venue |
+|---|---|---|---|
+| **Futures** | **both sides** | linear, symmetric | exchange; standardised, cleared, margined daily |
+| **Forwards** | both sides | linear | OTC, bespoke |
+| **Options** | **seller only** — buyer has the right | **asymmetric**; strike + expiry | exchange (IMC's core business) |
+| **Swaps** | both sides | exchange of cash-flow streams (e.g. fixed vs floating) | mostly OTC |
+| **CFDs** | bilateral with the broker | linear, typically no expiry | OTC, retail |
+
+**The distinction they are testing:** a future **obliges both sides** to transact at a fixed price
+on a fixed date. An option gives the buyer the **right without the obligation**. That asymmetry is
+precisely what the premium pays for — and it is why options need pricing models and futures largely
+do not.
+
+## Margin, in one line each
+
+**Margin** — collateral posted against a position rather than its full value. **Mark to market** —
+the position revalued at current prices, daily for futures. **Margin call** — top up the collateral
+or be closed out. **Notional** — the full economic size of the contract, which is much larger than
+the margin, and that is where the leverage comes from.
+
+## The spoken answer
+
+> "A derivative is a contract whose value comes from an underlying rather than from owning it —
+> futures, forwards, options, swaps. The line I'd draw is obligation: a future binds both sides to
+> transact at a set price on a set date, so the payoff is linear. An option binds only the seller —
+> the buyer holds a right and can walk away — so the payoff is asymmetric, and the premium is the
+> price of that asymmetry. I'd traded leveraged products, but leverage comes from posting margin
+> against notional; it isn't the thing that makes an instrument a derivative."

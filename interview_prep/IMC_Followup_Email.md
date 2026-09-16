@@ -14,13 +14,12 @@ large, and reads as low confidence at a firm that trades its own capital. The co
 *"one thing I want to correct"* → the fact → forward. State it the way an engineer corrects a
 number in a design doc: plainly, once, and move on.
 
-**Hard rules for this note:**
+**Hard rules:**
 - **Under 200 words.** Longer looks anxious and reads as homework.
 - **No self-criticism.** Not "I was confused", not "I should have known", not "I apologise".
 - **Facts, not effort.** "A share is a unit of ownership" — not "I spent the evening reading about shares".
-- **One forward-looking sentence at the end**, no ask, no pressure.
-- Send it to **Riccardo** and let him forward it. Do not try to reach the two engineers directly.
-- Send within **24-48 hours** of the interview. After that it stops being a correction and starts being a second thought.
+- Send to **Riccardo**, let him forward. Do not reach the two engineers directly.
+- Send within **24-48 hours**. Later than that it stops being a correction and becomes a second thought.
 
 ---
 
@@ -33,38 +32,56 @@ number in a design doc: plainly, once, and move on.
 > Thanks for arranging yesterday's conversation — I enjoyed it, and the discussion about the
 > assignment was genuinely useful. Could you pass this on to both of them?
 >
-> One thing I want to correct. When they asked about shares I reached for the wrong word: a share
-> is a **unit of ownership** in a company — a claim on its assets and earnings — rather than an
-> asset of the company, which is what I said. And on options: a contract giving the buyer the
-> right, but not the obligation, to buy or sell an underlying at a fixed strike up to expiry, with
-> the premium paying for that asymmetry — the buyer can walk away, the seller cannot.
+> One correction I want to make. On shares I reached for the wrong word: a share is a **unit of
+> ownership** in a company — a claim on its assets and earnings — rather than an asset of the
+> company, which is what I said.
 >
-> The exchange-versus-broker question also clarified something about my own employer that I had
-> never drawn properly: a CFD platform is the **counterparty** to its client, which is
-> structurally the opposite of a market maker quoting on a neutral venue as an exchange member.
+> And to state the derivatives answer properly: a derivative is a contract whose value is derived
+> from an underlying rather than from owning it — futures, options, swaps. The distinction I should
+> have drawn is that a future obliges **both** sides to transact at a fixed price on a fixed date,
+> whereas an option gives the buyer the **right without the obligation** up to expiry, and the
+> premium is what pays for that asymmetry. Leverage is a consequence of posting margin rather than
+> full value, not what makes something a derivative.
 >
-> The domain is the part of this role I'd be joining to learn, and I'd rather show I went and
-> closed a gap than leave it sitting. Looking forward to the next stage.
+> The domain is the part of this role I'd be joining to learn, and I'd rather close a gap than
+> leave it sitting. Looking forward to the next stage.
 >
 > Best,
 > Artem
 
-**Word count: ~195.** Do not add to it.
+**~200 words. Do not add to it.**
 
 ---
 
-## Optional trim, if the full version feels like too much
+## Shorter version, if the above feels like too much
 
-Cut the middle paragraph entirely and keep the correction to one sentence:
+Safer, and loses little:
 
-> One thing I want to correct: when they asked about shares I reached for the wrong word — a share
-> is a unit of **ownership** in a company, a claim on its assets and earnings, not an asset of the
-> company. Same for options: the right, not the obligation, to buy or sell at a fixed strike up to
-> expiry, with the premium paying for that asymmetry.
+> Hi Riccardo,
+>
+> Thanks for arranging yesterday — I enjoyed it, and the discussion about the assignment was
+> genuinely useful. Could you pass this on to both of them?
+>
+> Two corrections. A share is a **unit of ownership** in a company — a claim on its assets and
+> earnings — not an asset of the company, which is what I said. And on derivatives: the value comes
+> from an underlying rather than from owning it, and the distinction I should have drawn is that a
+> future obliges both sides, while an option gives the buyer the right without the obligation up to
+> expiry — the premium pays for that asymmetry.
+>
+> The domain is the part of this role I'd be joining to learn, and I'd rather close a gap than
+> leave it sitting. Looking forward to the next stage.
+>
+> Best,
+> Artem
 
-Shorter is safer. If in doubt, send the trim.
+**~135 words.** If in doubt, send this one.
 
-## What NOT to put in it
-- Any mention of having traded CFDs personally. Market makers restrict employee trading, so raising it unprompted in writing invites a compliance question rather than scoring a point. Save it for a live conversation if it fits naturally, in the past tense.
-- Greeks, volatility, pricing. Anything you cannot defend in a follow-up question does not belong in writing.
-- A request for feedback on how the round went. That is the recruiter's job to volunteer.
+---
+
+## What is deliberately NOT in it
+
+- **The exchange-versus-broker / "my own employer is the counterparty" observation.** Artem cut it, correctly: in writing it reads as *"I didn't know how my own employer works"*, which is a worse signal at a prop firm than the original fumble. **Keep it for a live conversation** if the topic comes up naturally — spoken, framed as an insight, it lands well. Written and unprompted, it doesn't.
+- **Any mention of personal CFD or leveraged trading.** Market makers restrict employee trading (pre-clearance, restricted lists, holding periods), so raising it unprompted in writing invites a compliance question rather than scoring a point. Past tense, live conversation only.
+- **Market making.** He was also asked this and couldn't answer, but three corrections in one note tips from "precise" into "anxious". Shares and derivatives are the two that were factually wrong; market making was simply unknown, and the place to demonstrate it is the Technology Lead round.
+- **Greeks, volatility, pricing.** Anything he cannot defend in a follow-up question does not belong in writing.
+- **A request for feedback on how the round went.** That is the recruiter's job to volunteer.
