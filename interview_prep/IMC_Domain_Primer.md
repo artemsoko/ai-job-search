@@ -201,3 +201,60 @@ Say this once, unprompted, and never claim market-data experience:
 
 Learn §1 verbatim — three answers, ninety seconds total. Then the order-book diagram in §3, then
 delta hedging in §4. Everything else is recognition, not recall.
+
+---
+
+# 9. Exchange vs broker — they asked this in round 2
+
+> "An **exchange** is a neutral, regulated **venue that matches orders**. It runs the central limit
+> order book, publishes market data, and enforces price-time priority. Crucially it **takes no
+> position of its own** — it brings buyers and sellers together and charges for access and data.
+>
+> A **broker** is an intermediary that holds a client account and **routes that client's order** to
+> an exchange on their behalf. Access, custody, the client relationship.
+>
+> Behind both sits a **clearing house**, which novates the trade and stands between the two sides
+> so neither carries the other's default risk. Settlement is when the asset and the cash actually
+> move.
+>
+> A market maker like IMC is a **member of the exchange** — quoting directly on the venue, not
+> routing through a broker."
+
+## The observation to volunteer — it turns the gap into an insight
+
+> "Working this out clarified something about my own employer. A CFD platform is the
+> **counterparty** to its client — the client's position is a bilateral contract with the broker,
+> not an order on a venue. That is structurally the **opposite** of IMC, which is a member quoting
+> on a neutral exchange. I'd been inside a trading business for three years without having drawn
+> that line properly."
+
+That is a better answer than the textbook one, because it is his own and it is specific.
+
+---
+
+# 10. CFD vs option — the distinction that explains the freeze
+
+Artem has traded CFDs personally and still could not answer the options question. That is not
+inconsistent — **they are different instruments**, and the difference is exactly the part he was
+missing.
+
+| | CFD | Option |
+|---|---|---|
+| Payoff | **linear** — the difference in price | **asymmetric** — a right, not an obligation |
+| Strike | none | yes |
+| Expiry | typically none | yes, and time value decays to zero |
+| Counterparty | **the broker** — bilateral, OTC | exchange + clearing house |
+| Ownership of underlying | no | no (but the right to buy it) |
+| Leverage | built in | built in, via the premium |
+
+**What they share:** both are **derivatives** — value derived from an underlying, with no ownership
+of it.
+
+So CFD experience gives real intuition about leverage and about taking a position without owning
+the asset, and **no intuition at all about options**, because there is no strike, no expiry and no
+asymmetry in a CFD. That is the honest explanation for freezing, and it is a strong answer rather
+than an excuse.
+
+⚠️ **Compliance note.** Market makers normally restrict employees' personal trading — pre-clearance,
+restricted lists, holding periods. Mention CFD trading in the **past tense**, as the source of some
+familiarity, not as an ongoing hobby.
