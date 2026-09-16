@@ -345,7 +345,7 @@ the string is only interpolated if the record actually gets emitted. `[tool.ruff
 ```
 
 - **`f'{quantity:f}'`** — the sharpest small detail in the submission. `str(Decimal('1E+3'))` is
-  `'1E+3'`; fixed-point formatting sends `1000.000` instead. Volunteer this one, the comment is
+  `'1E+3'`; fixed-point formatting sends `1000` instead. (Verified on 3.13: `f"{Decimal('1E+3'):f}"` is `'1000'` -- `:f` does not pad decimals, it just refuses scientific notation. `Decimal('17.0')` stays `'17.0'`, which is what the end-to-end test asserts.) Volunteer this one, the comment is
   already there.
 - `ET.indent(out)` pretty-prints — makes the output diffable by a human, costs whitespace.
 - `uuid.uuid4()` per transfer: unique, but **two runs on the same input produce different ids**, so outputs can't be diffed. Defensible (the bank needs globally unique ids); the alternative is a deterministic id hashed from product+accounts+quantity, which is diffable but collides across days.
