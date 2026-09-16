@@ -46,6 +46,24 @@ and say the spec back out loud. Run through the clarifying-questions checklist i
 | 5 | Rate limiter / quota | **You have shipped this.** Connect it to your governance engine out loud. | 25 min |
 | 6 | Merge K sorted streams | Heap of iterators, streaming not materialising. | 25 min |
 
+## What tasks can actually come up — researched 2026-09-16, tiered by confidence
+
+Aggregator sites mix roles and regions freely, so this is split by how much it can be trusted.
+
+**HIGH — matches his role, region and station format:**
+- **Order book / matching engine.** Multiple independent sources, and the format lines up (existing code plus pre-written failing tests, in PyCharm). `drill1_order_book` covers it.
+- Confirmed station shape: 5-10 min reading the task, interviewer walkthrough, 10 min thinking with **Google allowed**, approach discussion, then code. First-hand: *"a complex system to build"*, *"still about medium LeetCode complexity"*.
+
+**MEDIUM — reported for IMC, role/region unclear:**
+- **Market-maker simulation** — *"write code to simulate a market maker and determine how you would set your bid-ask spread"*. **No drill exists. Highest-value gap**, because it is uniquely IMC-shaped AND it forces the domain knowledge he fumbled in round 2 (spread, inventory risk, skewing).
+- **Time-series anomaly detection** over stock prices. No drill.
+- **LRU cache** — explicitly reported, and `drill4_lru` already covers it.
+- Sharpe ratio as a function; BST insertion; longest substring without repeating characters; grid BFS; "simulation, data-structure design".
+- **System design**: *"design a high-frequency trading system to minimize latency"*, *"challenges in real-time data processing"*, multithreading. **IMC mentioned system design to him directly. No prep exists.**
+
+**LOW — other tracks, not his:**
+2-D DP and Combination Sum (QR/quant track), Asteroid Collision and similar (the online-assessment pool), Neurolympics and the trading games (trader track), the 120-minute HackerRank with two problems (other roles — already flagged in `IMC_Python_SWE_Prep.md`).
+
 ## Drill 1 now has TWO stages — added 2026-09-16 after researching how the question is really run
 
 `drill1_order_book` holds **38 failing tests**, not 19.
