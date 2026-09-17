@@ -303,3 +303,61 @@ Only include jobs posted within the last 14 days, or with an application deadlin
 ## Adapting Queries
 
 If the user specifies a focus (e.g. "/scrape fintech" or "/scrape london"), select the matching category/location and generate 2-3 custom queries for that focus.
+
+## Portal skills installed 2026-09-17 — UK, NL and DE
+
+The framework ships six portal skills, **four of them Danish** (`jobindex`, `jobnet`, `jobbank`,
+`jobdanmark`) — leftovers from when Copenhagen was the target. For NL/DE/UK the only source was
+`linkedin-search` plus the Dutch IND sponsor register. Upstream keeps market adaptations in
+forks, indexed in discussion #78 of `MadsLorentzen/ai-job-search`. Five were installed from there:
+
+| Skill | Market | Source fork | Status |
+|---|---|---|---|
+| `reed-search` | UK | `anjolok1997/ai-job-search-uk` | ✅ live-tested, returns London results |
+| `totaljobs-search` | UK | same | ✅ live-tested. CLI **deliberately refuses pagination beyond page 1** (robots compliance) |
+| `wttj-search` | UK | same | ✅ live-tested. Welcome to the Jungle **public JSON API**, client-side GB filter |
+| `nationalevacaturebank-search` | NL | `Fabian-Schreuder/ai-job-search-nl` | ✅ live-tested, **public JSON API** |
+| `xing-search` | DE | `rasstamann/ai-job-search-germany` | ⚠️ works, but see the caveat below |
+| `scripts/sponsor_lookup.py` | UK | `anjolok1997/ai-job-search-uk` | ✅ live-tested |
+
+**Supply chain, checked before installing rather than after:** all five have **zero runtime
+dependencies** (only `typescript` + `@types/bun` as dev deps), talk only to their own host, and
+contain no `child_process`, `eval`, env-var or credential access. `sponsor_lookup.py` is Python
+stdlib only. They need no `bun install` — the CLIs run directly under `bun`, same as
+`linkedin-search`.
+
+### `sponsor_lookup.py` is the highest-value item here
+It queries gov.uk's **Register of licensed sponsors (Workers)** — the UK equivalent of the IND
+register, which has been the single best NL source all along. ~140k rows, cached once per
+calendar day, no API key. It resolves trading names, so `"Deliveroo"` finds
+`Roofoods Ltd t/a Deliveroo`, and it returns the sponsor **rating and visa routes**:
+
+```bash
+python3 scripts/sponsor_lookup.py "Monzo" --json
+python3 scripts/sponsor_lookup.py "Deliveroo" --city London
+```
+
+Use it to turn a London posting that is **silent** on sponsorship into a ranked likelihood
+instead of a guess.
+
+### ⚠️ Two caveats on `xing-search`
+1. **Its index is German-language.** `-q "Senior Software Engineer"` returns **nothing**;
+   `-q "Softwareentwickler"` returns results. So it only works with German queries — which
+   collides directly with the `posting-written-in-local-language` rule: almost everything Xing
+   surfaces will then be excluded by the screener. **Expect a near-zero net yield.** Installed for
+   completeness, not because it is useful here.
+2. **XING's `robots.txt` disallows `/jobs/search` for generic crawlers.** The skill's own SKILL.md
+   documents this and positions it as personal, low-volume use with a ToS note. Do not run sweep
+   volume through it. Also: **StepStone and Indeed were investigated by that fork and documented
+   as blocked**, kept on a WebSearch fallback — so do not spend another sweep trying them.
+
+### Still to wire: `hunt.py` is LinkedIn-only
+`scripts/hunt.py:43` hardcodes `.agents/skills/linkedin-search/cli/src/cli.ts`, and line 184
+stamps `"portal": "linkedin"` on every record. **Installing the skills does not put them in
+`./hunt`.** They are usable directly via their CLIs today; making `./hunt` multi-portal is a
+separate change to that script.
+
+### UK city scope
+`config/uk-cities.json` arrived with `defaults: [london, manchester, glasgow, remote-uk]`.
+Trimmed to **`[london, remote-uk]`** — the others are out of scope and only slow sweeps. One-line
+revert to widen.
