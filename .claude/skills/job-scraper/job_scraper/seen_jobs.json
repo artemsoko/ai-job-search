@@ -85921,17 +85921,17 @@
       "first_seen": "2026-09-17",
       "tier": "NL",
       "status": "new",
-      "assessed": true,
+      "assessed": false,
       "ind_sponsor": "CONFIRMED - IND recognised-sponsor register",
       "source": "sponsor-board harvest 2026-09-17",
-      "screen_verdict": "UNREACHABLE",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2,
-      "notes": "body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry"
+      "notes": "body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
+      "screen_verdict": "UNREACHABLE",
+      "unreachable_attempts": 1
     },
     "https://hollandia.recruitee.com/o/manager-engineering": {
       "title": "Manager Engineering",
@@ -86028,17 +86028,17 @@
       "first_seen": "2026-09-17",
       "tier": "NL",
       "status": "new",
-      "assessed": true,
+      "assessed": false,
       "ind_sponsor": "CONFIRMED - IND recognised-sponsor register",
       "source": "sponsor-board harvest 2026-09-17",
-      "screen_verdict": "UNREACHABLE",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2,
-      "notes": "body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry"
+      "notes": "body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
+      "screen_verdict": "UNREACHABLE",
+      "unreachable_attempts": 1
     },
     "https://job-boards.eu.greenhouse.io/imc/jobs/4975740101": {
       "title": "Graduate Hardware Engineer",
@@ -86761,17 +86761,17 @@
       "first_seen": "2026-09-17",
       "tier": "NL",
       "status": "new",
-      "assessed": true,
+      "assessed": false,
       "ind_sponsor": "CONFIRMED - IND recognised-sponsor register",
       "source": "sponsor-board harvest 2026-09-17",
-      "screen_verdict": "UNREACHABLE",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2,
-      "notes": "body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry"
+      "notes": "body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
+      "screen_verdict": "UNREACHABLE",
+      "unreachable_attempts": 1
     },
     "https://werkenbij.sdu.nl/o/data-engineer-architect": {
       "title": "Senior Data Engineer / Data Architect",
@@ -86782,17 +86782,17 @@
       "first_seen": "2026-09-17",
       "tier": "NL",
       "status": "new",
-      "assessed": true,
+      "assessed": false,
       "ind_sponsor": "CONFIRMED - IND recognised-sponsor register",
       "source": "sponsor-board harvest 2026-09-17",
-      "screen_verdict": "UNREACHABLE",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2,
-      "notes": "body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry"
+      "notes": "body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
+      "screen_verdict": "UNREACHABLE",
+      "unreachable_attempts": 1
     },
     "https://werkenbij.sdu.nl/o/frontend-developer": {
       "title": "Frontend Developer (React, Next.js)",
@@ -86803,17 +86803,17 @@
       "first_seen": "2026-09-17",
       "tier": "NL",
       "status": "new",
-      "assessed": true,
+      "assessed": false,
       "ind_sponsor": "CONFIRMED - IND recognised-sponsor register",
       "source": "sponsor-board harvest 2026-09-17",
-      "screen_verdict": "UNREACHABLE",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2,
-      "notes": "body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry"
+      "notes": "body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
+      "screen_verdict": "UNREACHABLE",
+      "unreachable_attempts": 1
     },
     "https://careers.linkit.nl/o/application-support-engineer": {
       "title": "Application Support Engineer",
@@ -87393,17 +87393,17 @@
       "first_seen": "2026-09-17",
       "tier": "NL",
       "status": "new",
-      "assessed": true,
+      "assessed": false,
       "ind_sponsor": "CONFIRMED - IND recognised-sponsor register",
       "source": "sponsor-board harvest 2026-09-17",
-      "screen_verdict": "UNREACHABLE",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2,
-      "notes": "body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry"
+      "notes": "body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
+      "screen_verdict": "UNREACHABLE",
+      "unreachable_attempts": 1
     },
     "https://on2it.recruitee.com/o/02-senior-phpgo-developer": {
       "title": "Senior PHP/Go Developer",
@@ -98165,17 +98165,17 @@
       "first_seen": "2026-09-17",
       "tier": "DE",
       "status": "new",
-      "assessed": true,
+      "assessed": false,
       "ind_sponsor": "CONFIRMED - IND recognised-sponsor register",
       "source": "sponsor-board harvest 2026-09-17",
-      "screen_verdict": "UNREACHABLE",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2,
-      "notes": "body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry"
+      "notes": "body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
+      "screen_verdict": "UNREACHABLE",
+      "unreachable_attempts": 1
     },
     "https://jobs.ashbyhq.com/perk/150619b0-aecd-484b-a906-013f59a7871a": {
       "title": "Director of Go-to-Market Engineering ",
@@ -100743,18 +100743,20 @@
       "portal": "wttj",
       "date": "2026-08-29T00:03:02Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "??",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Senior Software Developer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
+      "screen_verdict": "EXCLUDE",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "c#,node",
+      "screen_flags": [
+        "below-senior"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "unreachable_attempts": 1
     },
     "https://www.welcometothejungle.com/en/companies/wayve/jobs/senior-platform-engineer_london_4vqlvdyp": {
       "title": "Senior Software Engineer",
@@ -100764,18 +100766,21 @@
       "portal": "wttj",
       "date": "2026-09-06T00:14:39Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Senior Software Developer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
+      "screen_verdict": "EXCLUDE",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "c#,node",
+      "screen_flags": [
+        "on-call",
+        "below-senior"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "unreachable_attempts": 1
     },
     "https://www.welcometothejungle.com/en/companies/graphcore/jobs/senior-software-engineer_cambridge_ad3kh4dk": {
       "title": "Senior Software Engineer",
@@ -100808,18 +100813,20 @@
       "portal": "wttj",
       "date": "2026-09-03T00:06:23Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Senior Software Developer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; java is stated as a hard requirement: \"ote salary: not specified experience: > 5 years skills & expertise motivational skills continuous integration java reac",
+      "screen_verdict": "EXCLUDE",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "java(core),kotlin(core),c#,node",
+      "screen_flags": [
+        "below-senior"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "unreachable_attempts": 1
     },
     "https://www.welcometothejungle.com/en/companies/lloyds/jobs/senior-software-engineer_edinburgh_5r3orvxf": {
       "title": "Senior Software Engineer",
@@ -100833,14 +100840,16 @@
       "tier": "??",
       "status": "new",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Senior Software Developer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Senior Software Developer' @ London | screened FLAG: python-not-core",
+      "screen_verdict": "FLAG",
+      "screen_python": 1,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "go,java(core),rust,node(core)",
+      "screen_flags": [
+        "python-not-core"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "unreachable_attempts": 1
     },
     "https://www.welcometothejungle.com/en/companies/cboe/jobs/senior-software-engineer-realtime_london_dd63afd3": {
       "title": "Senior Software Engineer (Realtime)",
@@ -100854,14 +100863,16 @@
       "tier": "UK",
       "status": "new",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Senior Software Developer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Senior Software Developer' @ London | screened FLAG: python-not-core",
+      "screen_verdict": "FLAG",
+      "screen_python": 2,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "c++(core),java",
+      "screen_flags": [
+        "python-not-core"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "unreachable_attempts": 1
     },
     "https://www.welcometothejungle.com/en/companies/navan/jobs/senior-backend-software-engineer_london_pxfn6ivt": {
       "title": "Senior Backend Software Engineer",
@@ -100871,18 +100882,21 @@
       "portal": "wttj",
       "date": "2026-09-11T00:12:54Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Senior Backend Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; java is stated as a hard requirement: \"experience: hands-on experience developing and maintaining consumer-facing or core business products at scale java & sp",
+      "screen_verdict": "EXCLUDE",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "java(core),c#,node",
+      "screen_flags": [
+        "degree-hard-requirement",
+        "below-senior"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "unreachable_attempts": 1
     },
     "https://www.welcometothejungle.com/en/companies/motorola-solutions/jobs/senior-backend-software-engineer_uxbridge_wb6tmrkr": {
       "title": "Senior Backend Software Engineer",
@@ -100892,18 +100906,17 @@
       "portal": "wttj",
       "date": "2026-09-15T00:12:03Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "??",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Senior Backend Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.welcometothejungle.com/en/companies/onetrace/jobs/senior-backend-engineer_london_podpxadr": {
       "title": "Senior Backend Engineer",
@@ -100916,15 +100929,15 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": true,
+      "assessed": false,
       "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Senior Backend Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "UNREACHABLE",
+      "unreachable_attempts": 1
     },
     "https://www.welcometothejungle.com/en/companies/kalepa/jobs/senior-backend-engineer_fr_pjoj223a": {
       "title": "Senior Backend Engineer (Client Integrations)",
@@ -100934,18 +100947,17 @@
       "portal": "wttj",
       "date": "2026-08-29T00:08:18Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "??",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Senior Backend Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.welcometothejungle.com/en/companies/kingfisher-france/jobs/lead-software-engineer_london": {
       "title": "Lead Software Engineer",
@@ -100955,18 +100967,17 @@
       "portal": "wttj",
       "date": "2026-09-15T22:01:34Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Lead Software Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "kotlin",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.welcometothejungle.com/en/companies/capital-on-tap/jobs/lead-software-engineer_london_6qmybyoy": {
       "title": "Lead Software Engineer",
@@ -100976,18 +100987,17 @@
       "portal": "wttj",
       "date": "2026-09-11T00:04:19Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Lead Software Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; c# is stated as a hard requirement: \"tices, including adoption of ai tools and automation we’re looking for 🔎 extensive commercial experience with c# and .net",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "go,c#(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.welcometothejungle.com/en/companies/london-stock-exchange/jobs/software-platform-engineering-lead_london_u42qmkt5": {
       "title": "Software & Platform Engineering Lead",
@@ -100997,18 +101007,17 @@
       "portal": "wttj",
       "date": "2026-08-29T00:10:02Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Lead Software Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.welcometothejungle.com/en/companies/mistral-ai/jobs/software-engineer-backend_new-york": {
       "title": "Software Engineer, Backend",
@@ -101022,14 +101031,16 @@
       "tier": "??",
       "status": "new",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Backend Developer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Backend Developer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry | screened FLAG: on-call, below-senior",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "go(core),kotlin(core),c#(core)",
+      "screen_flags": [
+        "on-call",
+        "below-senior"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "FLAG"
     },
     "https://www.welcometothejungle.com/en/companies/addepar/jobs/staff-backend-software-engineer_edinburgh_sbza4qgv": {
       "title": "Staff Backend Software Engineer",
@@ -101039,18 +101050,17 @@
       "portal": "wttj",
       "date": "2026-09-03T00:02:05Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "??",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Backend Developer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.welcometothejungle.com/en/companies/prolific/jobs/senior-cloud-platform-engineer_gb_fftlmck5": {
       "title": "Senior Cloud Platform Engineer",
@@ -101064,14 +101074,15 @@
       "tier": "??",
       "status": "new",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Platform Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
+      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Platform Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry | screened FLAG: on-call",
+      "screen_python": 1,
+      "screen_python_core": true,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "on-call"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "FLAG"
     },
     "https://www.welcometothejungle.com/en/companies/finmid/jobs/platform-engineer_gb_ardpcnz6": {
       "title": "Platform Engineer",
@@ -101081,18 +101092,19 @@
       "portal": "wttj",
       "date": "2026-09-16T00:09:20Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "??",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Platform Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "on-call"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.welcometothejungle.com/en/companies/onetrace/jobs/platform-engineer_london_xwvq4ut2": {
       "title": "Platform Engineer",
@@ -101105,15 +101117,15 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": true,
+      "assessed": false,
       "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Platform Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "UNREACHABLE",
+      "unreachable_attempts": 1
     },
     "https://www.welcometothejungle.com/en/companies/kaluza/jobs/platform-engineer_bristol_2lskp3fa": {
       "title": "Platform Engineer",
@@ -101123,18 +101135,19 @@
       "portal": "wttj",
       "date": "2026-09-09T22:03:25Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "??",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Platform Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: no-sponsorship - rting To: Engineering Manager This role is based in the UK and requires an existing right to work in the UK. At this time, we are not able to offer visa sponsorship for this role. ; python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "go",
+      "screen_flags": [
+        "on-call"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.welcometothejungle.com/en/companies/sensor-tower/jobs/platform-engineer_london_yzq5ykco": {
       "title": "Platform Engineer",
@@ -101144,18 +101157,17 @@
       "portal": "wttj",
       "date": "2026-09-02T00:18:04Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Platform Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "ruby",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.welcometothejungle.com/en/companies/v7/jobs/senior-platform-engineer_london_3oepghzh": {
       "title": "Senior Platform Engineer",
@@ -101169,14 +101181,15 @@
       "tier": "UK",
       "status": "new",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Platform Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Platform Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry | screened FLAG: on-call",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "go,elixir(core)",
+      "screen_flags": [
+        "on-call"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "FLAG"
     },
     "https://www.welcometothejungle.com/en/companies/zopa/jobs/senior-platform-engineer_london_bckr7i24": {
       "title": "Senior Platform Engineer",
@@ -101186,18 +101199,19 @@
       "portal": "wttj",
       "date": "2026-09-10T00:03:53Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Platform Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "on-call"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.welcometothejungle.com/en/companies/motorola-solutions/jobs/senior-platform-engineer_uxbridge_nuwflulp": {
       "title": "Senior Platform Engineer",
@@ -101207,18 +101221,17 @@
       "portal": "wttj",
       "date": "2026-09-15T00:12:04Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "??",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Platform Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.welcometothejungle.com/en/companies/stoxx/jobs/principal-platform-engineer_london_5l3zv4zw": {
       "title": "Principal Platform Engineer",
@@ -101228,18 +101241,17 @@
       "portal": "wttj",
       "date": "2026-09-03T00:16:24Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Platform Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.welcometothejungle.com/en/companies/mistral-ai/jobs/site-reliability-engineer_new-york": {
       "title": "Site Reliability Engineer",
@@ -101253,14 +101265,17 @@
       "tier": "??",
       "status": "new",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Platform Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Platform Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry | screened FLAG: on-call, degree-hard-requirement, recruiter-undisclosed-client",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "go(core)",
+      "screen_flags": [
+        "on-call",
+        "degree-hard-requirement",
+        "recruiter-undisclosed-client"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "FLAG"
     },
     "https://www.welcometothejungle.com/en/companies/arbor-education-1/jobs/site-reliability-engineer_gb_imotdsyq": {
       "title": "Site Reliability Engineer",
@@ -101270,18 +101285,17 @@
       "portal": "wttj",
       "date": "2026-09-08T00:01:46Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "??",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Platform Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.welcometothejungle.com/en/companies/charlotte-tilbury/jobs/platform-engineer_london_qk6iuzq4": {
       "title": "Platform Engineer",
@@ -101291,18 +101305,19 @@
       "portal": "wttj",
       "date": "2026-08-29T00:05:34Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Platform Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "on-call"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.welcometothejungle.com/en/companies/kalepa/jobs/senior-platform-engineer_fr_vp7inxkz": {
       "title": "Senior Platform Engineer (Infrastructure)",
@@ -101312,18 +101327,19 @@
       "portal": "wttj",
       "date": "2026-08-29T00:08:17Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "??",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Platform Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "on-call"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.welcometothejungle.com/en/companies/socure/jobs/senior-software-engineer_london_onzlgbpn": {
       "title": "Senior Software Engineer",
@@ -101333,18 +101349,17 @@
       "portal": "wttj",
       "date": "2026-08-29T00:14:56Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Senior Software Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.welcometothejungle.com/en/companies/pinwheel/jobs/senior-backend-engineer-ai-projects_york_ejeo4wew": {
       "title": "Senior Backend Engineer (AI Projects)",
@@ -101354,18 +101369,19 @@
       "portal": "wttj",
       "date": "2026-09-17T00:15:06Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Senior Backend Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "below-senior"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.welcometothejungle.com/en/companies/london-stock-exchange/jobs/lead-developer_london_ydqadnmr": {
       "title": "Lead Developer",
@@ -101379,14 +101395,15 @@
       "tier": "UK",
       "status": "new",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Lead Software Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Lead Software Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry | screened FLAG: python-not-core",
+      "screen_python": 1,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "java(core)",
+      "screen_flags": [
+        "python-not-core"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "FLAG"
     },
     "https://www.welcometothejungle.com/en/companies/lloyds/jobs/backend-software-engineer_london_doryhbnf": {
       "title": "Backend Software Engineer",
@@ -101396,18 +101413,17 @@
       "portal": "wttj",
       "date": "2026-08-29T00:09:52Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Backend Developer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "go",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.welcometothejungle.com/en/companies/and-digital/jobs/senior-platform-engineer-12-month-ftc_london_zigvcty6": {
       "title": "Senior Platform Engineer (3 Month FTC)",
@@ -101417,18 +101433,17 @@
       "portal": "wttj",
       "date": "2026-09-02T00:04:46Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Platform Engineer' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.welcometothejungle.com/en/companies/reward/jobs/insights-tech-lead_london_ydrq6zko": {
       "title": "Insights Tech Lead",
@@ -101438,18 +101453,17 @@
       "portal": "wttj",
       "date": "2026-09-11T00:16:25Z",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
+      "status": "skipped",
       "assessed": true,
-      "notes": "hunt 2026-09-17: wttj generic-title sweep, query 'Tech Lead' @ London | body UNREACHABLE after 2 attempts - never read, NOT a stack verdict, do not recommend from this entry",
-      "screen_verdict": "UNREACHABLE",
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 2
+      "screen_verdict": "EXCLUDE"
     },
     "https://uk.linkedin.com/jobs/view/senior-software-engineer-c%2B%2B-system-software-at-roku-4331150844": {
       "title": "Senior Software Engineer - C++, System Software",
@@ -113377,12 +113391,12 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_verdict": "PASS",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "go(core),java(core),c#(core),scala(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
       "unreachable_attempts": 1
@@ -113395,18 +113409,17 @@
       "portal": "totaljobs",
       "date": "1 week ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; c# is stated as a hard requirement: \"emerging tools and techniques, including ai-assisted and agentic development workflows skills required strong c# and .net",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "c#(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/senior-software-engineer/hadte-group-job107933145": {
       "title": "Senior Software Engineer",
@@ -113416,18 +113429,17 @@
       "portal": "totaljobs",
       "date": "2 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; go is stated as a hard requirement: \"ery senior team with a lot of freedom and ownership). essential skills 4+ years programming exposure with go/ golang or s",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "go(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/senior-software-engineer-fixed-income-risk-system/morgan-stanley-job107936509": {
       "title": "Senior Software Engineer (Fixed Income Risk System)",
@@ -113437,18 +113449,17 @@
       "portal": "totaljobs",
       "date": "1 week ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "c++,java,scala",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/senior-software-engineer-icloud-platform-observability/apple-job107987227": {
       "title": "Senior Software Engineer - iCloud Platform - Observability",
@@ -113458,18 +113469,19 @@
       "portal": "totaljobs",
       "date": "1 day ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; c++ is stated as a hard requirement: \"imum qualifications strong background in developing software in java or a similar language (e.g. swift, c, or c++) stron",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "c++(core),java(core)",
+      "screen_flags": [
+        "degree-requirement-softened"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/aiml-senior-software-engineer-on-device-priml/apple-job107987248": {
       "title": "AIML - Senior Software Engineer, On-Device - PriML",
@@ -113482,15 +113494,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Software Engineer' @ London | screened FLAG: degree-requirement-softened",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "c++(core)",
+      "screen_flags": [
+        "degree-requirement-softened"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/senior-software-engineer/anson-mccade-job107981690": {
       "title": "Senior Software Engineer",
@@ -113500,18 +113513,17 @@
       "portal": "totaljobs",
       "date": "2 days ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; java is stated as a hard requirement: \"rnative technologies, tools and methods. essential skills and experience • minimum 5-8 years of experience in java deve",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "java(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/senior-software-engineer-in-build-engineering/graphcore-job107912409": {
       "title": "Senior Software Engineer in Build Engineering",
@@ -113521,18 +113533,17 @@
       "portal": "totaljobs",
       "date": "2 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: no-sponsorship - ny reasonable adjustments. Applicants for this position must hold the right to work in the UK. Unfortunately at this time, we are unable to provide visa sponsorship or support for ",
+      "screen_python": 1,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "c++",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/senior-software-engineer/bright-purple-resourcing-job107888131": {
       "title": "Senior Software Engineer",
@@ -113542,18 +113553,17 @@
       "portal": "totaljobs",
       "date": "3 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; c# is stated as a hard requirement: \"emerging tools and techniques, including ai-assisted and agentic development workflows skills required strong c# and .net",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "c#(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/senior-software-engineer/redline-group-ltd-job107953751": {
       "title": "Senior Software Engineer",
@@ -113566,15 +113576,17 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Software Engineer' @ London | screened FLAG: python-not-core, below-senior",
+      "screen_python": 2,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "c++,c#(core)",
+      "screen_flags": [
+        "python-not-core",
+        "below-senior"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/senior-software-engineer/hackajob-ltd-job107890059": {
       "title": "Senior Software Engineer",
@@ -113587,15 +113599,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Software Engineer' @ London | screened FLAG: on-call",
+      "screen_python": 2,
+      "screen_python_core": true,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "on-call"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/oracle-dba-lead/hackajob-ltd-job107889450": {
       "title": "Senior Software Engineer",
@@ -113608,15 +113621,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_python": 2,
+      "screen_python_core": true,
+      "screen_rivals": "java(core),kotlin(core),node(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/senior-software-engineer-python-aws-front-office/client-server-job107982783": {
       "title": "Senior Software Engineer Python AWS - Front Office",
@@ -113629,15 +113641,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
+      "screen_python": 5,
+      "screen_python_core": true,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/senior-software-developer/scouts-job107905670": {
       "title": "Senior Software Developer",
@@ -113647,18 +113658,19 @@
       "portal": "totaljobs",
       "date": "3 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Software Developer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "contract-not-permanent"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/senior-software-developer-in-test-senior-consultant/scale-factory-job107980386": {
       "title": "Senior Software Developer in Test - Senior Consultant",
@@ -113671,15 +113683,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Software Developer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "c++(core),java(core),c#(core),scala(core),php(core),ruby(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/senior-etrading-developer-rates/randstad-digital-job107988520": {
       "title": "Senior eTrading Developer - Rates",
@@ -113689,18 +113700,17 @@
       "portal": "totaljobs",
       "date": "1 day ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Software Developer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; java is stated as a hard requirement: \"date brings extensive buy-side or top-tier investment banking experience in rates e-trading, deep low-latency java expe",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "java(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/senior-backend-engineer/inspire-people-job107896747": {
       "title": "Senior Backend Engineer",
@@ -113713,15 +113723,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Backend Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "screen_python": 3,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "go,java,c#",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/backend-software-engineer-c-net-sports-trading/client-server-job107924478": {
       "title": "Backend Software Engineer C# .Net - Sports Trading",
@@ -113731,18 +113740,17 @@
       "portal": "totaljobs",
       "date": "2 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Backend Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; c# is stated as a hard requirement: \"ll be based in plush city office on a fulltime basis, monday to friday. about you: you have expertise with c# .net, asp.n",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "c#(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/python-developer-ai/client-server-job107963781": {
       "title": "Python Developer AI",
@@ -113755,15 +113763,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Backend Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_python": 10,
+      "screen_python_core": true,
+      "screen_rivals": "c#(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/backend-product-engineer-mid-level/freetrade-job107975070": {
       "title": "Backend Product Engineer (Mid-level)",
@@ -113773,18 +113780,21 @@
       "portal": "totaljobs",
       "date": "5 days ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Backend Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "node",
+      "screen_flags": [
+        "on-call",
+        "below-senior",
+        "onsite-heavy"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/backend-software-engineer-c-net-sql-sports-trading/client-server-job107993314": {
       "title": "Backend Software Engineer C# .Net SQL - Sports Trading",
@@ -113794,18 +113804,17 @@
       "portal": "totaljobs",
       "date": "7 hours ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Backend Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; c# is stated as a hard requirement: \"ation: you'll be based in plush city office on a fulltime basis, monday to friday. about you: you have strong c# .net, as",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "c#(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/backend-software-engineer-infrastructure-foundations/palantir-job107986982": {
       "title": "Backend Software Engineer - Infrastructure, Foundations",
@@ -113815,18 +113824,17 @@
       "portal": "totaljobs",
       "date": "1 day ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Backend Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: clearance-or-citizenship - Seeks to centralise and abstract complexity away from our users in order to expose simple, powerful APIs for consumers. Active US Security clearance, or eligibility and willingness",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "c++(core),go,java(core),rust(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/backend-software-engineer-distributed-systems/client-server-job107978712": {
       "title": "Backend Software Engineer - Distributed Systems",
@@ -113836,18 +113844,17 @@
       "portal": "totaljobs",
       "date": "3 days ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Backend Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; go is stated as a hard requirement: \"unch and learn events etc. around once a month. about you you have strong backend development experience with go, node.js",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "go(core),node(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/backend-software-engineer-c-ai/client-server-job107963732": {
       "title": "Backend Software Engineer C# AI",
@@ -113860,15 +113867,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Backend Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "c#(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/backend-software-engineer-python-llm-finance/client-server-job107947867": {
       "title": "Backend Software Engineer Python LLM - Finance",
@@ -113881,15 +113887,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Backend Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Backend Engineer' @ London | screened FLAG: degree-hard-requirement",
+      "screen_python": 5,
+      "screen_python_core": true,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "degree-hard-requirement"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/lead-software-developer/alfa-technology-recruitment-ltd-job107979475": {
       "title": "Lead Software Developer",
@@ -113902,15 +113909,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Backend Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Backend Engineer' @ London | screened FLAG: contract-not-permanent",
+      "screen_python": 1,
       "screen_python_core": false,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "contract-not-permanent"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/mid-level-back-end-software-engineer/motorola-solutions-uk-ltd-job107897142": {
       "title": "Mid Level Back End Software Engineer",
@@ -113923,15 +113931,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Backend Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Backend Engineer' @ London | screened FLAG: below-senior",
+      "screen_python": 1,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "c++,go,java,rust",
+      "screen_flags": [
+        "below-senior"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/software-engineer/wolt-american-company-job107991306": {
       "title": "Software Engineer",
@@ -113941,18 +113950,17 @@
       "portal": "totaljobs",
       "date": "23 hours ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Backend Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; go is stated as a hard requirement: \"erience this is first and foremost a backend engineering role. we’re especially interested in candidates with golang expe",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "go(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/senior-full-stack-engineer/g-r-e-recruitment-limited-job107921057": {
       "title": "Senior Full Stack Engineer",
@@ -113962,18 +113970,17 @@
       "portal": "totaljobs",
       "date": "2 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Backend Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; php is stated as a hard requirement: \"doe + benefits essential exp: nodejs, typescript, nestjs,rabbitmq/kafka/sqs, aws, rest api's. desirable exp: php 8/ symf",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "go,node,php(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/backend-software-engineer-python-ml-aws/client-server-job107983246": {
       "title": "Backend Software Engineer Python ML AWS",
@@ -113986,15 +113993,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Backend Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_python": 4,
+      "screen_python_core": true,
+      "screen_rivals": "go",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/backend-software-engineer-typescript/client-server-job107985868": {
       "title": "Backend Software Engineer TypeScript",
@@ -114007,15 +114013,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Senior Backend Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "rust(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/staff-software-engineer-ai/moody-s-job107923225": {
       "title": "Staff Software Engineer-AI",
@@ -114028,15 +114033,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London | screened FLAG: degree-requirement-softened",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "go",
+      "screen_flags": [
+        "degree-requirement-softened"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/staff-software-engineer-dev-environments/deliveroo-job107896843": {
       "title": "Staff Software Engineer, Dev Environments",
@@ -114049,15 +114055,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "go(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/staff-software-engineer-ai/hackajob-ltd-job107965216": {
       "title": "Staff Software Engineer-AI",
@@ -114070,15 +114075,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London | screened FLAG: degree-requirement-softened",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "go",
+      "screen_flags": [
+        "degree-requirement-softened"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/staff-software-engineer/stepstone-uk-job107962158": {
       "title": "Staff Software Engineer",
@@ -114088,18 +114094,17 @@
       "portal": "totaljobs",
       "date": "1 week ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; c# is stated as a hard requirement: \"hitecture, and engineering managers. qualifications staff-level engineering background with deep expertise in .net and re",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "c#(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/staff-software-engineer-ai/hackajob-ltd-job107889292": {
       "title": "Staff Software Engineer - AI",
@@ -114112,15 +114117,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London | screened FLAG: degree-requirement-softened",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "go,java",
+      "screen_flags": [
+        "degree-requirement-softened"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/staff-software-engineer-labs-science/hackajob-ltd-job107890432": {
       "title": "Staff Software Engineer, Labs Science",
@@ -114130,18 +114136,20 @@
       "portal": "totaljobs",
       "date": "3 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; c++ is stated as a hard requirement: \"valent practical experience. 8 years of experience in full-stack software development using languages such as c++, java,",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "c++(core),java(core),kotlin(core)",
+      "screen_flags": [
+        "degree-requirement-softened",
+        "below-senior"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/staff-software-engineer-ai/hackajob-ltd-job107889190": {
       "title": "Staff Software Engineer - AI",
@@ -114154,15 +114162,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London | screened FLAG: degree-requirement-softened",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "go,java",
+      "screen_flags": [
+        "degree-requirement-softened"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/staff-software-engineer-android-growth-systems-and-app-foundations/hackajob-ltd-job107890113": {
       "title": "Staff Software Engineer, Android Growth Systems and App Foundations",
@@ -114172,18 +114181,20 @@
       "portal": "totaljobs",
       "date": "3 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "kotlin",
+      "screen_flags": [
+        "degree-requirement-softened",
+        "below-senior"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/staff-software-engineer-ai/hackajob-ltd-job107889189": {
       "title": "Staff Software Engineer - AI",
@@ -114196,15 +114207,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London | screened FLAG: degree-requirement-softened",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "go,java",
+      "screen_flags": [
+        "degree-requirement-softened"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/staff-software-engineer/hackajob-ltd-job107882713": {
       "title": "Staff Software Engineer - Flights",
@@ -114214,18 +114226,17 @@
       "portal": "totaljobs",
       "date": "3 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: must-already-reside - an IRL-first approach to work, where our team works together in-person 3 days a week. As such, this role requires you to be based within commuting distance of our hubs. We fundamen",
+      "screen_python": 1,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/staff-control-software-engineer/skl-robotics-ltd-job107898697": {
       "title": "Staff Control Software Engineer",
@@ -114238,15 +114249,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "screen_python": 1,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "c++",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/software-engineer/develop-job107991847": {
       "title": "Software Engineer",
@@ -114256,18 +114266,19 @@
       "portal": "totaljobs",
       "date": "22 hours ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "c++,c#",
+      "screen_flags": [
+        "below-senior"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/software-engineer-rust/cisco-job107992590": {
       "title": "Software Engineer - Rust",
@@ -114280,15 +114291,18 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London | screened FLAG: python-not-core, on-call, degree-hard-requirement",
+      "screen_python": 1,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "c++(core),java,rust(core)",
+      "screen_flags": [
+        "python-not-core",
+        "on-call",
+        "degree-hard-requirement"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/campus-full-time-software-engineer-2027-uk-london/american-express-job107987490": {
       "title": "Campus - Full Time - Software Engineer - 2027 (UK - London)",
@@ -114301,15 +114315,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London | screened FLAG: degree-hard-requirement",
+      "screen_python": 2,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "go,java,kotlin,c#,node",
+      "screen_flags": [
+        "degree-hard-requirement"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/software-engineer-backend-bi-platform/deliveroo-job107975929": {
       "title": "Software Engineer, Backend (BI Platform)",
@@ -114322,15 +114337,17 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London | screened FLAG: on-call, contract-not-permanent",
+      "screen_python": 1,
       "screen_python_core": false,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "on-call",
+        "contract-not-permanent"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/software-developer/sanderson-government-and-defence-job107993953": {
       "title": "Software Developer",
@@ -114340,18 +114357,17 @@
       "portal": "totaljobs",
       "date": "5 hours ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Staff Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; node is stated as a hard requirement: \"and maintaining scalable cloud-based applications. the successful candidate will have strong experience with node.js , ",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "node(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/lead-software-engineer/morgan-stanley-job107944532": {
       "title": "Lead Software Engineer",
@@ -114361,18 +114377,17 @@
       "portal": "totaljobs",
       "date": "1 week ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "c++",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/lead-software-engineer/tech-4-job107990725": {
       "title": "Lead Software Engineer",
@@ -114382,18 +114397,17 @@
       "portal": "totaljobs",
       "date": "1 day ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "c#",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/lead-software-engineer/anson-mccade-job107992130": {
       "title": "Lead Software Engineer",
@@ -114403,18 +114417,17 @@
       "portal": "totaljobs",
       "date": "20 hours ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; java is stated as a hard requirement: \"track record of leading and mentoring engineers strong experience in a modern object-oriented language (c# or java) dee",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "java(core),c#(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/lead-software-engineer/anson-mccade-job107992044": {
       "title": "Lead Software Engineer",
@@ -114424,18 +114437,17 @@
       "portal": "totaljobs",
       "date": "22 hours ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; java is stated as a hard requirement: \"eed strong commercial experience designing and developing software significant hands-on experience with c# or java stro",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "java(core),c#(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/lead-software-engineer-for-commodities-uk/hackajob-ltd-job107965218": {
       "title": "Lead Software Engineer for COMMODITIES UK",
@@ -114448,15 +114460,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
+      "screen_python": 2,
+      "screen_python_core": true,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/lead-software-engineer/cadence-resourcing-limited-job107960139": {
       "title": "Lead Software Engineer",
@@ -114466,18 +114477,17 @@
       "portal": "totaljobs",
       "date": "1 week ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "java,node",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/lead-software-engineer/london-stock-exchange-job107897077": {
       "title": "Lead Software Engineer",
@@ -114490,15 +114500,17 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London | screened FLAG: degree-hard-requirement, below-senior",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "c++(core),go,java(core),c#(core)",
+      "screen_flags": [
+        "degree-hard-requirement",
+        "below-senior"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/snr-lead-software-engineer-data-platforms/hackajob-ltd-job107889490": {
       "title": "Snr. Lead Software Engineer - Data Platforms",
@@ -114508,18 +114520,19 @@
       "portal": "totaljobs",
       "date": "3 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "contract-not-permanent"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/principal-data-scientist-healthcare/hackajob-ltd-job107889550": {
       "title": "Lead Software Engineer",
@@ -114532,15 +114545,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "go(core),java(core),rust(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/sr-lead-software-engineer/hackajob-ltd-job107890030": {
       "title": "Sr Lead Software Engineer",
@@ -114550,18 +114562,19 @@
       "portal": "totaljobs",
       "date": "3 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; c++ is stated as a hard requirement: \"sting, and operational stability advanced knowledge and demonstrated skills in in programming languages c and c++ demons",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "c++(core)",
+      "screen_flags": [
+        "contract-not-permanent"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/sr-lead-software-engineer-etc-etrade-infra/hackajob-ltd-job107890052": {
       "title": "Sr Lead Software Engineer - ETC ETRADE INFRA",
@@ -114571,18 +114584,17 @@
       "portal": "totaljobs",
       "date": "3 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/lead-software-engineer-python-api/client-server-job107969672": {
       "title": "Lead Software Engineer Python API",
@@ -114595,15 +114607,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
+      "screen_python": 5,
+      "screen_python_core": true,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/senior-lead-software-engineer-mobile-engineering/hackajob-ltd-job107890078": {
       "title": "Senior Lead Software Engineer - Mobile Engineering",
@@ -114613,18 +114624,20 @@
       "portal": "totaljobs",
       "date": "3 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "kotlin",
+      "screen_flags": [
+        "on-call",
+        "contract-not-permanent"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/senior-lead-software-engineer-cdao-data-platforms/hackajob-ltd-job107890011": {
       "title": "Senior Lead Software Engineer - CDAO Data Platforms",
@@ -114634,18 +114647,19 @@
       "portal": "totaljobs",
       "date": "3 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; java is stated as a hard requirement: \"cal experience delivering system design, application development, testing, and operational stability advanced java and ",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "java(core),scala",
+      "screen_flags": [
+        "contract-not-permanent"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/lead-risk-software-engineer-ldn/hackajob-ltd-job107890060": {
       "title": "Lead Risk Software Engineer LDN",
@@ -114658,15 +114672,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
+      "screen_python": 3,
+      "screen_python_core": true,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/principal-software-engineer/vitality-corporate-services-limited-job107996039": {
       "title": "Principal Software Engineer",
@@ -114676,18 +114689,17 @@
       "portal": "totaljobs",
       "date": "12 minutes ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; java is stated as a hard requirement: \"uss flexible working! top 3 skills needed for this role strategic enterprise technology leadership recognised java engi",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "java(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/engineer-network-security/hackajob-ltd-job107890112": {
       "title": "Lead Software Engineer - Proxy/SSE Network Security",
@@ -114697,18 +114709,19 @@
       "portal": "totaljobs",
       "date": "3 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "on-call"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/full-stack-lead-software-engineer-application-owner/hackajob-ltd-job107889620": {
       "title": "Full-stack Lead Software Engineer â?? Application Owner",
@@ -114721,15 +114734,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London | screened FLAG: python-not-core",
+      "screen_python": 1,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "node(core)",
+      "screen_flags": [
+        "python-not-core"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/principal-software-engineer-chase-uk-lending-deposits-rewards/hackajob-ltd-job107890064": {
       "title": "Principal Software Engineer - Chase UK - Lending/Deposits/Rewards",
@@ -114739,18 +114753,17 @@
       "portal": "totaljobs",
       "date": "3 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "go",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/principal-software-engineer-platform-engineering-accelerator-business/hackajob-ltd-job107889979": {
       "title": "Principal Software Engineer - Platform Engineering - Accelerator Business",
@@ -114760,18 +114773,17 @@
       "portal": "totaljobs",
       "date": "3 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Lead Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; go is stated as a hard requirement: \"em design, development, testing, and operational stability. advanced proficiency in modern language(s) (e.g., go, java, k",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "go(core),java(core),kotlin(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/principal-software-engineer-ai/moody-s-job107923226": {
       "title": "Principal Software Engineer-AI",
@@ -114784,15 +114796,17 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Principal Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Principal Software Engineer' @ London | screened FLAG: on-call, degree-requirement-softened",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "c#(core)",
+      "screen_flags": [
+        "on-call",
+        "degree-requirement-softened"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/pmo-analyst/hackajob-ltd-job107889285": {
       "title": "Principal Software Engineer-AI",
@@ -114805,15 +114819,17 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Principal Software Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Principal Software Engineer' @ London | screened FLAG: on-call, degree-requirement-softened",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "c#(core)",
+      "screen_flags": [
+        "on-call",
+        "degree-requirement-softened"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/ruby-developer/hackajob-ltd-job107882597": {
       "title": "Ruby Developer",
@@ -114826,15 +114842,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Backend Developer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "java(core),c#(core),node(core),ruby(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/lead-fullstack-software-engineer-java-springboot-microservices/tpximpact-holdings-plc-job107994691": {
       "title": "Lead Fullstack Software Engineer - Java, Springboot, Microservices",
@@ -114847,15 +114862,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Backend Developer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Backend Developer' @ London | screened FLAG: recruiter-undisclosed-client",
+      "screen_python": 3,
+      "screen_python_core": true,
+      "screen_rivals": "java(core),node(core)",
+      "screen_flags": [
+        "recruiter-undisclosed-client"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/c-developer-net-core/client-server-job107993290": {
       "title": "C# Developer .Net Core",
@@ -114865,18 +114881,17 @@
       "portal": "totaljobs",
       "date": "8 hours ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Backend Developer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; c# is stated as a hard requirement: \"h to £85k are you a backend focussed c# developer? you could be progressing your career in a senior, hands-on c# develope",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "c#(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/lead-specialist-content-developer/pearson-job107992199": {
       "title": "Lead Specialist, Content Developer",
@@ -114886,18 +114901,17 @@
       "portal": "totaljobs",
       "date": "20 hours ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Backend Developer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/senior-full-stack-developer-kotlin-react-banking-london/salt-job107991163": {
       "title": "Senior Full Stack Developer (Kotlin, React) - Banking - London",
@@ -114907,18 +114921,17 @@
       "portal": "totaljobs",
       "date": "1 day ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Backend Developer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "java,kotlin,scala",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/senior-fullstack-software-engineer-java-spring-boot-microservices/tpximpact-holdings-plc-job107994675": {
       "title": "Senior Fullstack Software Engineer - (Java, Spring Boot, Microservices",
@@ -114931,15 +114944,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Backend Developer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "java(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/senior-full-stack-developer-typescript-react-api/client-server-job107988458": {
       "title": "Senior Full Stack Developer TypeScript React API",
@@ -114949,18 +114961,17 @@
       "portal": "totaljobs",
       "date": "1 day ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Backend Developer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "rust",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/fullstack-developer-dv-cleared/experis-job107982733": {
       "title": "Fullstack Developer (DV Cleared)",
@@ -114973,15 +114984,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Backend Developer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "java(core),c#(core),node",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/c-developer-technical-lead-net-fintech/client-server-job107978148": {
       "title": "C# Developer / Technical Lead .Net - FinTech",
@@ -114991,18 +115001,17 @@
       "portal": "totaljobs",
       "date": "3 days ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Backend Developer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "c#",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/platform-engineer/canada-life-uk-job107967251": {
       "title": "Platform Engineer",
@@ -115015,15 +115024,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
+      "screen_python": 1,
+      "screen_python_core": true,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/python-platform-engineer/develop-job107925772": {
       "title": "Python Platform Engineer",
@@ -115036,15 +115044,17 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London | screened FLAG: contract-not-permanent, recruiter-undisclosed-client",
+      "screen_python": 6,
+      "screen_python_core": true,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "contract-not-permanent",
+        "recruiter-undisclosed-client"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/python-platform-engineer/develop-job107925130": {
       "title": "Python Platform Engineer",
@@ -115057,15 +115067,17 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London | screened FLAG: contract-not-permanent, recruiter-undisclosed-client",
+      "screen_python": 5,
+      "screen_python_core": true,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "contract-not-permanent",
+        "recruiter-undisclosed-client"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/storage-platform-engineer-sre/apple-job107987209": {
       "title": "Storage Platform Engineer (SRE)",
@@ -115078,15 +115090,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London | screened FLAG: on-call",
+      "screen_python": 1,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "go,java,rust",
+      "screen_flags": [
+        "on-call"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/platform-reliability-engineer/conocophillips-job107992149": {
       "title": "Platform Reliability Engineer",
@@ -115099,15 +115112,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London | screened FLAG: on-call",
+      "screen_python": 1,
       "screen_python_core": false,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "on-call"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/platform-engineer/oscar-associates-uk-limited-job107972720": {
       "title": "Platform Engineer",
@@ -115117,18 +115131,19 @@
       "portal": "totaljobs",
       "date": "5 days ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "recruiter-undisclosed-client"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/platform-engineer-enterprise-platforms/xcede-job107970722": {
       "title": "Platform Engineer - Enterprise Platforms",
@@ -115141,15 +115156,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London | screened FLAG: contract-not-permanent",
+      "screen_python": 3,
+      "screen_python_core": true,
+      "screen_rivals": "go(core)",
+      "screen_flags": [
+        "contract-not-permanent"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/platform-engineer-common-platform/xcede-job107970647": {
       "title": "Platform Engineer - Common Platform",
@@ -115162,15 +115178,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London | screened FLAG: contract-not-permanent",
+      "screen_python": 2,
+      "screen_python_core": true,
+      "screen_rivals": "go(core)",
+      "screen_flags": [
+        "contract-not-permanent"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/platform-engineer-aws-and-azure/ecm-selection-ltd-job107962015": {
       "title": "Platform Engineer (AWS and Azure)",
@@ -115183,15 +115200,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London | screened FLAG: python-not-core",
+      "screen_python": 1,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "java(core)",
+      "screen_flags": [
+        "python-not-core"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/security-platform-engineer-google-cloud-public-sector/hackajob-ltd-job107889968": {
       "title": "Security Platform Engineer, Google Cloud Public Sector",
@@ -115201,18 +115219,20 @@
       "portal": "totaljobs",
       "date": "3 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: clearance-or-citizenship - including container escapes, privilege escalation, and lateral movement techniques. Current and active UK Developed Vetting (DV) Security Clearance. Responsibilities: Deploy, confi",
+      "screen_python": 1,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "go",
+      "screen_flags": [
+        "on-call",
+        "degree-requirement-softened"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/senior-ai-platform-engineer/emporia-consulting-group-limited-job107986086": {
       "title": "Senior AI Platform Engineer",
@@ -115225,15 +115245,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London | screened FLAG: contract-not-permanent",
+      "screen_python": 1,
+      "screen_python_core": true,
+      "screen_rivals": "go(core),c#(core)",
+      "screen_flags": [
+        "contract-not-permanent"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/azure-platform-engineer/dgh-recruitment-job107962437": {
       "title": "Azure Platform Engineer",
@@ -115246,15 +115267,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London | screened FLAG: recruiter-undisclosed-client",
+      "screen_python": 1,
       "screen_python_core": false,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "recruiter-undisclosed-client"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/change-manager/hackajob-ltd-job107889467": {
       "title": "Senior Cloud Platform Engineer",
@@ -115264,18 +115286,17 @@
       "portal": "totaljobs",
       "date": "3 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/devops-platform-engineer/context-job107982771": {
       "title": "DevOps Platform Engineer",
@@ -115285,18 +115306,17 @@
       "portal": "totaljobs",
       "date": "2 days ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/power-platform-engineer/anson-mccade-job107945736": {
       "title": "Power Platform Engineer",
@@ -115306,18 +115326,17 @@
       "portal": "totaljobs",
       "date": "1 week ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Platform Engineer' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/architect-tech-lead/itransition-job107989283": {
       "title": "Architect / Tech Lead",
@@ -115327,18 +115346,17 @@
       "portal": "totaljobs",
       "date": "1 day ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Tech Lead' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/technical-lead-openshift/ecs-job107985955": {
       "title": "Technical Lead- OpenShift",
@@ -115348,18 +115366,17 @@
       "portal": "totaljobs",
       "date": "1 day ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Tech Lead' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/technical-lead-infrastructure/saga-group-job107978080": {
       "title": "Technical Lead – Infrastructure",
@@ -115369,18 +115386,17 @@
       "portal": "totaljobs",
       "date": "3 days ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Tech Lead' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; go is stated as a hard requirement: \"pany's it systems can survive a major failure without losing data. • be seen internally and externally as the go-to infra",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "go(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/technical-lead-full-stack-applications/wickes-job107973745": {
       "title": "Technical Lead - Full Stack Applications",
@@ -115393,15 +115409,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Tech Lead' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Tech Lead' @ London | screened FLAG: python-not-core",
+      "screen_python": 1,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "c#(core)",
+      "screen_flags": [
+        "python-not-core"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/technical-lead-renewable-technologies/west-kent-housing-association-job107967852": {
       "title": "Technical Lead - Renewable Technologies",
@@ -115411,18 +115428,19 @@
       "portal": "totaljobs",
       "date": "6 days ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Tech Lead' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "contract-not-permanent"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/technical-lead/develop-job107947513": {
       "title": "Technical Lead",
@@ -115435,15 +115453,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Tech Lead' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "screen_python": 2,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/power-platform-technical-lead-sc/sanderson-recruitment-job107985839": {
       "title": "Power Platform Technical Lead (SC)",
@@ -115453,18 +115470,19 @@
       "portal": "totaljobs",
       "date": "1 day ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Tech Lead' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "contract-not-permanent"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/ibm-netcool-observability-technical-lead/deerfoot-recruitment-solutions-job107983567": {
       "title": "IBM Netcool / Observability Technical Lead",
@@ -115474,18 +115492,19 @@
       "portal": "totaljobs",
       "date": "2 days ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Tech Lead' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "contract-not-permanent"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/power-platform-technical-lead-nppv3-sc/sanderson-recruitment-job107980663": {
       "title": "Power Platform Technical Lead (NPPV3/SC)",
@@ -115495,18 +115514,19 @@
       "portal": "totaljobs",
       "date": "2 days ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Tech Lead' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "contract-not-permanent"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/technical-director-dc-ca-lead/aecom-job107907625": {
       "title": "Technical Director (DC CA lead)",
@@ -115516,18 +115536,17 @@
       "portal": "totaljobs",
       "date": "2 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Tech Lead' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/technical-lead-c/london-stock-exchange-job107968473": {
       "title": "Technical Lead (C++)",
@@ -115540,15 +115559,17 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Tech Lead' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Tech Lead' @ London | screened FLAG: python-not-core, below-senior",
+      "screen_python": 1,
       "screen_python_core": false,
-      "screen_rivals": "",
-      "screen_flags": [],
+      "screen_rivals": "c++(core),go",
+      "screen_flags": [
+        "python-not-core",
+        "below-senior"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/tech-lead-soc-responder/hackajob-ltd-job107890351": {
       "title": "Tech Lead - SOC Responder",
@@ -115561,15 +115582,16 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Tech Lead' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
+      "assessed": true,
+      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Tech Lead' @ London | screened FLAG: on-call",
+      "screen_python": 1,
+      "screen_python_core": true,
       "screen_rivals": "",
-      "screen_flags": [],
+      "screen_flags": [
+        "on-call"
+      ],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "FLAG"
     },
     "https://www.totaljobs.com/job/technical-lead-data-migration/adroc-group-job107905678": {
       "title": "Technical Lead - Data Migration",
@@ -115582,15 +115604,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Tech Lead' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
+      "screen_python": 1,
       "screen_python_core": false,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/python-technical-lead-fintech/run-time-group-ltd-job107890961": {
       "title": "Python Technical Lead – FinTech",
@@ -115603,15 +115624,14 @@
       "fit": "unknown",
       "tier": "UK",
       "status": "new",
-      "assessed": false,
+      "assessed": true,
       "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Tech Lead' @ London",
-      "screen_verdict": "UNREACHABLE",
-      "screen_python": 0,
-      "screen_python_core": false,
+      "screen_python": 7,
+      "screen_python_core": true,
       "screen_rivals": "",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "PASS"
     },
     "https://www.totaljobs.com/job/technical-lead/hackajob-ltd-job107882724": {
       "title": "D365/Power Platform Technical Lead",
@@ -115621,18 +115641,17 @@
       "portal": "totaljobs",
       "date": "3 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Tech Lead' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "c#",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/technical-lead/hackajob-ltd-job107882654": {
       "title": "Technical Lead",
@@ -115642,18 +115661,17 @@
       "portal": "totaljobs",
       "date": "3 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Tech Lead' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent - Zero Python mentions anywhere in the posting body.",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "c#",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.totaljobs.com/job/full-stack-engineer-technical-lead-b2b-saas/client-server-job107926597": {
       "title": "Full Stack Engineer / Technical Lead B2B SaaS",
@@ -115663,18 +115681,17 @@
       "portal": "totaljobs",
       "date": "2 weeks ago",
       "first_seen": "2026-09-17",
-      "fit": "unknown",
+      "fit": "low",
       "tier": "UK",
-      "status": "new",
-      "assessed": false,
-      "notes": "hunt 2026-09-17: totaljobs generic-title sweep, query 'Tech Lead' @ London",
-      "screen_verdict": "UNREACHABLE",
+      "status": "skipped",
+      "assessed": true,
+      "notes": "AUTO-EXCLUDED by screen_job.py: python-absent-rival-core - Zero Python mentions; ruby is stated as a hard requirement: \"ware engineer with experience of building developer tooling and apis you have strong hands-on experience with ruby, typ",
       "screen_python": 0,
       "screen_python_core": false,
-      "screen_rivals": "",
+      "screen_rivals": "ruby(core)",
       "screen_flags": [],
       "screen_date": "2026-09-17",
-      "unreachable_attempts": 1
+      "screen_verdict": "EXCLUDE"
     },
     "https://www.welcometothejungle.com/en/companies/robinhood/jobs/senior-software-engineer-developer-experience_menlo-park-ca_w6ms4m4c": {
       "title": "Senior Software Engineer (Developer Experience)",

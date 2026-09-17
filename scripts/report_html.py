@@ -64,7 +64,10 @@ AGENCY = re.compile(
     r"jobgether|xpertdirect|european tech recruit|rise technical|client server|iq staffing|"
     r"involved solutions|intec select|corriculo|\bselect ltd\b|\bselect limited\b|"
     r"\bassociates\b|\bpartners\b|\bresource\b|\bpeople\b|\bcareers\b|opus |lorien|"
-    r"spectrum it|understanding|\bnext ventures\b|\bzebra\b|\bsoda\b",
+    r"spectrum it|understanding|\bnext ventures\b|\bzebra\b|\bsoda\b|"
+    # hackajob is a hiring marketplace, so its postings hide the employer the same way an
+    # agency's do - it took 7 of the top 14 rows once the totaljobs bodies became readable.
+    r"hackajob|run-time group|\bnetworkers\b|\bsanderson\b|\bakkodis\b|\bcapgemini\b",
     re.I)
 
 # Heuristic, and deliberately imperfect: there is no register of recruitment agencies, and a

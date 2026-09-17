@@ -238,6 +238,34 @@ def fetch_body(url: str) -> tuple[str | None, str]:
             except (subprocess.SubprocessError, OSError):
                 pass
 
+    # Portals whose pages the plain fetcher cannot read, but whose own `detail` command can.
+    #
+    # FIXED 2026-09-17: the first multi-portal London sweep produced 110 totaljobs entries and
+    # every single body came back UNREACHABLE, because _fetch_url() cannot get past totaljobs'
+    # page while `totaljobs-search detail <id>` returns the full description happily. 16 wttj
+    # bodies failed the same way. That is 126 postings discarded for a fetcher gap rather than
+    # anything to do with the stack.
+    #
+    # reed is deliberately NOT in this table: raw-html already reads it (387 of 387 in that
+    # sweep), so routing it through bun would only add latency.
+    for pattern, skill, source in (
+        (r"totaljobs\.com/job/", "totaljobs-search", "totaljobs"),
+        (r"welcometothejungle\.com/", "wttj-search", "wttj"),
+        (r"nationalevacaturebank\.nl/", "nationalevacaturebank-search", "nvb"),
+    ):
+        if not re.search(pattern, url, re.I):
+            continue
+        cli = BASE / ".agents/skills" / skill / "cli/src/cli.ts"
+        if not cli.exists():
+            continue
+        try:
+            out = subprocess.run(["bun", "run", str(cli), "detail", url, "--format", "plain"],
+                                 capture_output=True, text=True, timeout=90, cwd=BASE)
+            if out.returncode == 0 and out.stdout.strip():
+                return re.sub(r"\s+", " ", out.stdout), source
+        except (subprocess.SubprocessError, OSError):
+            pass
+
     raw = _fetch_url(url)
     return (strip_html(raw), "raw-html") if raw else (None, "unreachable")
 
