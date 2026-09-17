@@ -6518,7 +6518,7 @@
       "date": "",
       "first_seen": "2026-08-12",
       "fit": "high",
-      "status": "applied",
+      "status": "rejected",
       "assessed": true,
       "notes": "backfilled from tracker CSV by --sync",
       "tier": "NL"

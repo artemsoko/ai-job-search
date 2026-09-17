@@ -9,6 +9,7 @@ terminal so the log stays true regardless of whether a session is open.
 Usage
 -----
   ./applied <url> [--role "..."] [--company "..."] [--status applied] [--notes "..."]
+  ./applied <url> --update --status rejected --notes "..."   # record an outcome
   ./applied --list                 show everything logged, newest first
   ./applied --sync                 reconcile tracker CSV <-> seen_jobs.json
   ./applied --check <url|company>  did I already apply here?
@@ -165,6 +166,26 @@ def touch_seen(url: str, company: str, role: str, status: str) -> str:
     return f"seen_jobs.json: {len(hits)} entry(ies) set to {status}"
 
 
+def update_row(row: dict, rows: list[dict], args) -> int:
+    """Record an outcome on an existing row.
+
+    Without this the tracker was insert-only, so a rejection or an offer could never be
+    written: the CSV kept saying `applied` forever. Editing seen_jobs.json by hand did not
+    work either, because `--sync` pushes the tracker's status INTO seen_jobs and silently
+    reverted it. That is how the Nelly Solutions rejection went missing.
+    """
+    before = row["status"]
+    row["status"] = args.status
+    if args.notes:
+        row["notes"] = (row.get("notes", "") + " | " if row.get("notes") else "") + args.notes
+    if args.date:
+        row["date_applied"] = args.date
+    write_rows(rows)
+    print(f"UPDATED: {row['company']} / {row['role']}  {before} -> {row['status']}")
+    print(" ", touch_seen(row["url"], row["company"], row["role"], row["status"]))
+    return 0
+
+
 def cmd_add(args) -> int:
     url = args.url
     company, role, location = derive(url)
@@ -181,8 +202,12 @@ def cmd_add(args) -> int:
     rows = read_rows()
     for r in rows:
         if r.get("url") == url or (norm(r["company"]) == norm(company) and norm(r["role"]) == norm(role)):
+            if args.update:
+                return update_row(r, rows, args)
             print(f"ALREADY LOGGED: {r['company']} / {r['role']} ({r['status']}, {r['date_applied']})")
             print("Nothing written. Use a different --role if this is a second req.")
+            print("To record an OUTCOME on this row, re-run with --update "
+                  "(e.g. --update --status rejected --notes '...').")
             return 2
 
     rows.append({
@@ -284,6 +309,8 @@ def main() -> int:
     p.add_argument("--company")
     p.add_argument("--role")
     p.add_argument("--location")
+    p.add_argument("--update", action="store_true",
+                   help="update an EXISTING row's status/notes instead of refusing as a duplicate")
     p.add_argument("--status", default="applied",
                    choices=["applied", "not_applied", "skipped", "interviewing", "rejected", "offer", "withdrawn"])
     p.add_argument("--notes")
