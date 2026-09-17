@@ -361,3 +361,46 @@ separate change to that script.
 `config/uk-cities.json` arrived with `defaults: [london, manchester, glasgow, remote-uk]`.
 Trimmed to **`[london, remote-uk]`** — the others are out of scope and only slow sweeps. One-line
 revert to widen.
+
+## `./hunt` is multi-portal since 2026-09-17
+
+`scripts/hunt.py` used to hardcode the linkedin CLI and stamp `"portal": "linkedin"` on every
+record. It now has a **`PORTALS` registry** and queries a portal only for locations whose country
+tier it serves, so reed/totaljobs/wttj run for London, `nvb` for the Netherlands, and linkedin for
+everything. Per-portal caps are honoured — totaljobs is capped at page 1 because its robots.txt
+disallows deeper paths.
+
+```bash
+./hunt --dry-run                          # per-portal request plan, then exit
+./hunt --locations London                  # linkedin + reed + totaljobs + wttj
+./hunt --portals reed wttj -l London       # pick portals explicitly
+./hunt --portals linkedin xing -l "Berlin, Germany"   # xing is opt-in
+```
+
+`--portals` overrides the default set. **`xing` is `default: False`** for the reasons in the
+registry comment (German-language index vs the local-language exclusion rule, plus the robots.txt
+caveat), so a plain `./hunt` never touches it.
+
+### 🔴 wttj-search reports US jobs as British — hunt now defends against it
+
+The most important finding of the wiring work. wttj-search's client-side GB filter
+**substring-matches**, so a New York posting comes back as `"location": "York, GB"` — it strips
+`"New "` and then believes the result. Verified: **24 of 27 `"York, GB"` records were New York
+City**, identifiable only from the URL slug (`..._new-york_<hash>`). On a single 9-request London
+sweep, **39 US results were returned as GB — roughly half of everything wttj produced.**
+
+Unfixed, this puts New York jobs in a London shortlist. Two defences were added to `hunt.py`:
+
+1. **`repair_location()`** — for wttj the **URL slug is the source of truth**, not the `location` field. Slug shape is `<title>_<city>_<hash>`, so the city is recoverable.
+2. **Off-market rejection** — a market-locked portal returning a job whose tier is outside its `markets` means the portal's own geo filter failed, so the result is dropped during collection and counted in the run summary. `TIERS` gained a **`US`** pattern, placed first so "New York" can never be read as "York".
+
+Worth reporting upstream to `anjolok1997/ai-job-search-uk`; until then, **do not use
+`wttj-search` directly** — go through `./hunt`, which repairs and filters. Its salary and date
+fields are fine; only the location is untrustworthy.
+
+### `tier_for()` now falls back to the portal's market
+reed and totaljobs return UK towns and counties — "Colnbrook, Berkshire", "Kingston Upon Thames,
+Surrey" — which no country regex matches, and **43 of the first 147 multi-portal records landed on
+tier `"??"`**. A positive location match still wins; only an unmatched location falls back to the
+portal's market, and only when that portal serves exactly one. The UK pattern also gained
+`\bgb\b` and `\buk\b`.
